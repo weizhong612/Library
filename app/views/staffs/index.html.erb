@@ -1,0 +1,14 @@
+<h1>Staff Lists</h1>
+
+<% @staffs.each do |staff| %>
+	<p>User Name: <%= staff.user_name %></p>
+	<p>Staff Name: <%= staff.first_name + ' ' + staff.last_name%></p>
+	<p>Location: <%= staff.location %></p>
+	<p>
+		<%= link_to "Edit", edit_staff_path(staff) %>
+		<%= link_to "Delete", staff, method: :delete, data: {confirm: 'Are you sure?'} %>
+	</p>
+	<hr />
+<% end %>
+
+<p><%= link_to "Add a New Staff", new_staff_path %></p> 
