@@ -3,8 +3,13 @@
 <%= form_for @reader do |form| %>
 	<h2>Personal Information</h2>
 	<p>
+<<<<<<< HEAD
 		<%= form.label :first_name %>
 		<%= form.text_field :first_name %>
+=======
+		<%= form.label :first_Name %>
+		<%= @reader.first_name %>
+>>>>>>> caaebbdbfa5de7741fe78ec2dbb40ce55b3ae0a0
 	</p>
 	<p>
 		<%= form.label :last_name %>
@@ -12,11 +17,12 @@
 	</p>
 	<p>
 		<%= form.label :date_of_birth %>
-		<%= form.text_field :date_of_birth %>
+		<%= form.date_field :date_of_birth %>
 	</p>
 	<p>
 		<%= form.label :program %>
 		<%= form.text_field :program %>
+		
 	</p>
 	<p>
 		<%= form.label :location %>
@@ -56,6 +62,6 @@
 	</p>
 	<p>
 		<%= form.submit 'Update' %>
-		<%= link_to 'Back', readers_path %>
+		<%= link_to 'Cancel', readers_path %>
 	</p>
 <% end %>
