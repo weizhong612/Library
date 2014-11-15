@@ -1,0 +1,25 @@
+<h1>Reader Information</h1>
+
+<h2>Personal Information</h2>
+
+<p>First Name: <%= @reader.first_name %></p>
+<p>Last Name: <%= @reader.last_name %></p>
+<p>Date of Birth: <%= @reader.date_of_birth %></p>
+<p>Program: <%= @reader.program %></p>
+<p>Registration Location: <%= @reader.reg_location %></p>
+
+<hr />
+<h2>Halfway Status</h2>
+<p>Date: <%= @reader.mid_date %></p>
+<p>Location: <%= @reader.mid_location %></p>
+<p>Initial: <%= @reader.mid_initial %></p>
+
+<hr />
+<h2>Final Status</h2>
+<p>Date: <%= @reader.end_date %></p>
+<p>Location: <%= @reader.end_location %></p>
+<p>Initial: <%= @reader.end_initial %></p>
+
+<p>
+	<%= link_to 'Back', readers_path %>
+</p>

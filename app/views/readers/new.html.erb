@@ -1,0 +1,32 @@
+<h1>Add a New Reader</h1>
+
+<%= form_for @reader do |form| %>
+	<p>
+		<%= form.label :first_Name %>
+		<%= form.text_field :first_name %>
+	</p>
+	<p>
+		<%= form.label :last_name %>
+		<%= form.text_field :last_name %>
+	</p>
+	<p>
+		<%= form.label :date_of_birth %>
+		<%= form.text_field :date_of_birth %>
+	</p>
+	<p>
+		<%= form.label :program %>
+		<%= form.text_field :program %>
+	</p>
+	<p>
+		<%= form.label :location %>
+		<%= form.text_field :reg_location %>
+	</p>
+	<p>
+		<%= form.label :register_date %>
+		<%= form.text_field :reg_date %>
+	</p>
+	<p>
+		<%= form.submit "Create" %>
+		<%= link_to 'Back', readers_path %>
+	</p>
+<% end %>

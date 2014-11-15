@@ -1,0 +1,12 @@
+<h1>Reader Lists</h1>
+
+<% @readers.each do |reader| %>
+	<p>Name: <%= link_to reader.first_name + ' ' + reader.last_name, reader %></p>
+	<p>
+		<%= link_to "Edit", edit_reader_path(reader) %>
+		<%= link_to "Delete", reader, method: :delete, data: {confirm: 'Are you sure?'} %>
+	</p>
+	<hr />
+<% end %>
+
+<p><%= link_to "Add a New Reader", new_reader_path %></p> 
