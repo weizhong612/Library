@@ -3,40 +3,35 @@
 <%= form_for @reader do |form| %>
 	<h2>Personal Information</h2>
 	<p>
-<<<<<<< HEAD
 		<%= form.label :first_Name %>
 		<%= @reader.first_name %>
-=======
-		<%= form.label :first_name %>
-		<%= form.text_field :first_name %>
->>>>>>> d1014d8e1e1466cefb60ba68fb40d17b8f24164b
 	</p>
 	<p>
 		<%= form.label :last_name %>
-		<%= form.text_field :last_name %>
+		<%= @reader.last_name %>
 	</p>
 	<p>
 		<%= form.label :date_of_birth %>
-		<%= form.date_field :date_of_birth %>
+		<%= @reader.date_of_birth %>
 	</p>
 	<p>
 		<%= form.label :program %>
-		<%= form.text_field :program %>
+		<%= @reader.program %>
 		
 	</p>
 	<p>
 		<%= form.label :location %>
-		<%= form.text_field :reg_location %>
+		<%= @reader.reg_location %>
 	</p>
 	<p>
 		<%= form.label :register_date %>
-		<%= form.text_field :reg_date %>
+		<%= @reader.reg_date %>
 	</p>
 	<hr />
 	<h2>Halfway Status</h2>
 	<p>
 		<%= form.label :date %>
-		<%= form.text_field :mid_date %>
+		<%= form.date_field :mid_date %>
 	</p>
 	<p>
 		<%= form.label :location %>
@@ -50,7 +45,7 @@
 	<h2>Final Status</h2>
 	<p>
 		<%= form.label :date %>
-		<%= form.text_field :end_date %>
+		<%= form.date_field :end_date %>
 	</p>
 	<p>
 		<%= form.label :location %>
