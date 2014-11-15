@@ -7,23 +7,30 @@
 	</p>
 	<p>
 		<%= form.label :last_name %>
-		<%= form.text_field :last_name %>
+		<%= @reader.last_name %>
 	</p>
 	<p>
 		<%= form.label :date_of_birth %>
-		<%= form.text_field :date_of_birth %>
+		<%= @date_of_birth %>
 	</p>
 	<p>
 		<%= form.label :program %>
-		<%= form.text_field :program %>
+		<select name="program" id="program">
+  			<option value="adult">Adult</option>
+  			<option value="teen">Teen</option>
+  			<option value="kid">Kids</option>
+		</select>
 	</p>
 	<p>
 		<%= form.label :location %>
-		<%= form.text_field :reg_location %>
+		<select name="location" id="location">
+  			<option value="collegestation" selected>College Station</option>
+  			<option value="bryan">Bryan</option>
+		</select>
 	</p>
 	<p>
 		<%= form.label :register_date %>
-		<%= form.text_field :reg_date %>
+		<%= form.date_field :reg_date %>
 	</p>
 	<p>
 		<%= form.submit "Create" %>
