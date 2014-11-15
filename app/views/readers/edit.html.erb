@@ -3,8 +3,13 @@
 <%= form_for @reader do |form| %>
 	<h2>Personal Information</h2>
 	<p>
+<<<<<<< HEAD
 		<%= form.label :first_Name %>
 		<%= @reader.first_name %>
+=======
+		<%= form.label :first_name %>
+		<%= form.text_field :first_name %>
+>>>>>>> d1014d8e1e1466cefb60ba68fb40d17b8f24164b
 	</p>
 	<p>
 		<%= form.label :last_name %>
