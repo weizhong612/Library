@@ -10,6 +10,10 @@ class ReadersController < ApplicationController
 	def new
 		@reader = Reader.new
 	end
+	
+	def report
+		@readers = Reader.all	
+	end
 
 	def create
 		@reader = Reader.new(reader_params)

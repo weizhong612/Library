@@ -1,35 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+** Git operation
 
-Things you may want to cover:
+git remote add program http://github.com/weizhong612/Library
 
-* Ruby version
+or
 
-* System dependencies
+git remote set-url program http://github.com/weizhong612/Library
 
-* Configuration
+git fetch program
 
-* Database creation
+git pull program
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
-
-git fetch http://github.com/weizhong612/Library
-git pull http://github.com/weizhong612/Library
 bundle install
+
 rake db:migrate
+
 git commit -m "modify message"
-git push http://github.com/weizhong612/Library new_branch_name
+
+git push program new_branch_name
