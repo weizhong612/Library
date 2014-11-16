@@ -1,6 +1,13 @@
 Rails.application.routes.draw do
 	resources :readers
     resources :staffs
+    
+    root 'program#index'
+    get 'program', to: 'program#index', as: 'program'
+    get 'program/index', to: 'program#index', as: 'index_program'
+    get 'program/report', to: 'program#report', as: 'report_program'
+     get 'program/about', to: 'program#about', as: 'about_program'
+     
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
