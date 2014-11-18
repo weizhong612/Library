@@ -8,12 +8,21 @@ Rails.application.routes.draw do
     get 'program/report', to: 'program#report', as: 'report_program'
      get 'program/about', to: 'program#about', as: 'about_program'
      
+ 
+
+  get 'login'  => 'login#new'
+  post   'log'   => 'login#create'
+  delete 'logout'  => 'login#destroy'
+
+  get 'help'    => 'staff_pages#help'
+  get 'about'   => 'staff_pages#about'	
+  resources :staff_pages
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+   root 'staff_pages#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
