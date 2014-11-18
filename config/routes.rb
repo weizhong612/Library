@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
  
 
   get 'login'  => 'login#new'
@@ -8,6 +9,17 @@ Rails.application.routes.draw do
   get 'help'    => 'staff_pages#help'
   get 'about'   => 'staff_pages#about'	
   resources :staff_pages
+=======
+	resources :readers
+    resources :staffs
+    
+    root 'program#index'
+    get 'program', to: 'program#index', as: 'program'
+    get 'program/index', to: 'program#index', as: 'index_program'
+    get 'program/report', to: 'program#report', as: 'report_program'
+     get 'program/about', to: 'program#about', as: 'about_program'
+     
+>>>>>>> 62ffa4463d7e27a85c2fbaec95a84a7bf4cc18cb
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
     <title><%= full_title(yield(:title)) %></title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -14,4 +15,45 @@
       <%= render 'layouts/footer' %>
     </div>
   </body>
+=======
+<head>
+  <title>Library</title>
+  <meta charset="UTF-8">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container head">
+  <h1>Summer Reading Program</h1>
+  <ul id="application-head">
+    <li><%= link_to "Home", index_program_path %></li>
+    <li><%= link_to "New Reader", new_reader_path %></li>
+    <li><%= link_to "Report", '/program/report' %></li>
+    <li><%= link_to "About", '/program/about' %></li>
+  </ul>
+</div>
+<% flash.each do |key, value| %>
+	<p><%= value%></p>
+<% end %>
+
+<%= yield %>
+
+<div class="container foot">
+  <h1>Contact Information</h1>
+  <a href="#">Clara B. Mounce Public Library</a>
+  <address>
+  201 E. 26th St.
+  Bryan, TX 77803
+  (979) 209-5600
+  </address>
+  <a href="#">Larry J. Ringer Library</a>
+  <address>
+    1818 Harvey Mitchell Pkwy. S.
+    College Station, TX 77845
+    (979) 764-3416
+  </address>
+</div>
+</body>
+>>>>>>> 62ffa4463d7e27a85c2fbaec95a84a7bf4cc18cb
 </html>

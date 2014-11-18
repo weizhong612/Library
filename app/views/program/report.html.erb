@@ -1,0 +1,19 @@
+<h1>This is the statistical report for Summer Reading Program.</h1>
+<table>
+	<tr>
+    <th>Program</th>
+    <th>Total</th> 
+    <th>Halfway</th>
+    <th>Finished</th>
+  </tr>
+  
+<% @program.each do |p| %>
+	<tr>
+    	<td><%= p[:name]%></td>
+    	<td><%= p[:total]%></td> 
+    	<td><%= p[:halfway]%></td>
+    	<td><%= p[:finished]%></td>
+    	<td><%= link_to "Reader List", readers_path %></td>
+  	</tr>
+<% end %>
+</table>

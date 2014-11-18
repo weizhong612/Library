@@ -1,0 +1,29 @@
+<h1>Update Information</h1>
+
+<%= form_for @staff do |form| %>
+	<h2>Staff Information</h2>
+	<p>
+		<%= form.label :user_name %>
+		<%= form.text_field :user_name %>
+	</p>
+	<p>
+		<%= form.label :password %>
+		<%= form.text_field :password_digest %>
+	</p>
+	<p>
+		<%= form.label :first_name %>
+		<%= form.text_field :first_name %>
+	</p>
+	<p>
+		<%= form.label :last_name %>
+		<%= form.text_field :last_name %>
+	</p>
+	<p>
+		<%= form.label :location %>
+		<%= form.text_field :location %>
+	</p>
+	<p>
+		<%= form.submit 'Update' %>
+		<%= link_to 'Back', staffs_path %>
+	</p>
+<% end %>

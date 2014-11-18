@@ -10,11 +10,15 @@ class ReadersController < ApplicationController
 	def new
 		@reader = Reader.new
 	end
+	
+	def report
+		@readers = Reader.all	
+	end
 
 	def create
 		@reader = Reader.new(reader_params)
 		if @reader.save
-			redirect_to readers_path, :notice => "New reader has been created.", :color => "valid"
+			redirect_to readers_path, :notice => "New reader has been created."
 		else
 			render "new"
 		end
