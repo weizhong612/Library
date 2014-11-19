@@ -3,6 +3,10 @@
 <%= form_for @reader do |form| %>
 	<h2>Personal Information</h2>
 	<p>
+		<%= form.label :first_name %>
+		<%= form.text_field :first_name %>
+		<%= form.label :first_Name %>
+		<%= @reader.first_name %>
 		<%= form.label :first_Name %>
 		<%= @reader.first_name %>
 	</p>
@@ -35,7 +39,8 @@
 	</p>
 	<p>
 		<%= form.label :location %>
-		<%= form.text_field :mid_location %>
+		<%= select(:reader, :mid_location, [['College Station', 'College Station'], ['Bryan', 'Bryan']]) %>
+		
 	</p>
 	<p>
 		<%= form.label :initial %>
@@ -49,7 +54,8 @@
 	</p>
 	<p>
 		<%= form.label :location %>
-		<%= form.text_field :end_location %>
+		<%= select(:reader, :end_location, [['College Station', 'College Station'], ['Bryan', 'Bryan']]) %>
+		
 	</p>
 	<p>
 		<%= form.label :initial %>
