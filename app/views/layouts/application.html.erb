@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
-  <head>
-    <title><%= full_title(yield(:title)) %></title>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-    <%= csrf_meta_tags %>
-    <%= render 'layouts/shim' %>
-  </head>
-  <body>
-    <%= render 'layouts/header' %>
-    <div class="container">
-      <%= yield %>
-      <%= render 'layouts/footer' %>
-    </div>
-  </body>
-=======
+
 <head>
   <title>Library</title>
   <meta charset="UTF-8">
@@ -31,6 +16,7 @@
     <li><%= link_to "New Reader", new_reader_path %></li>
     <li><%= link_to "Report", '/program/report' %></li>
     <li><%= link_to "About", '/program/about' %></li>
+    <li><%= link_to "Help", help_path %></li>
   </ul>
 </div>
 <% flash.each do |key, value| %>

@@ -1,31 +1,29 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
  
 
   get 'login'  => 'login#new'
-  post   'log'   => 'login#create'
+  post   'login'   => 'login#create'
   delete 'logout'  => 'login#destroy'
 
   get 'help'    => 'staff_pages#help'
-  get 'about'   => 'staff_pages#about'	
+  get 'about'   => 'staff_pages#about'
+   get 'home'   => 'staff_pages#home'
   resources :staff_pages
-=======
 	resources :readers
     resources :staffs
     
-    root 'program#index'
+    root 'staffs#index'
     get 'program', to: 'program#index', as: 'program'
     get 'program/index', to: 'program#index', as: 'index_program'
     get 'program/report', to: 'program#report', as: 'report_program'
-     get 'program/about', to: 'program#about', as: 'about_program'
+    get 'program/about', to: 'program#about', as: 'about_program'
      
->>>>>>> 62ffa4463d7e27a85c2fbaec95a84a7bf4cc18cb
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'staff_pages#home'
+#   root 'staff_pages#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
