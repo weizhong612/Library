@@ -12,7 +12,7 @@ Rails.application.routes.draw do
 	resources :readers
     resources :staffs
     
-    root 'staffs#index'
+    root 'program#index'
     get 'program', to: 'program#index', as: 'program'
     get 'program/index', to: 'program#index', as: 'index_program'
     get 'program/report', to: 'program#report', as: 'report_program'
