@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> lgg
 <head>
   <title>Library</title>
   <meta charset="UTF-8">
@@ -9,15 +13,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="container head">
-  <h1>Summer Reading Program</h1>
-  <ul id="application-head">
-    <li><%= link_to "Home", index_program_path %></li>
-    <li><%= link_to "New Reader", new_reader_path %></li>
-    <li><%= link_to "Report", '/program/report' %></li>
-    <li><%= link_to "About", '/program/about' %></li>
-  </ul>
-</div>
+
 <% flash.each do |key, value| %>
 	<p><%= value%></p>
 <% end %>
@@ -40,6 +36,7 @@
   </address>
 </div>
 </body>
+<<<<<<< HEAD
 =======
   <head>
     <title><%= full_title(yield(:title)) %></title>
@@ -55,5 +52,8 @@
       <%= render 'layouts/footer' %>
     </div>
   </body>
+>>>>>>> lgg
+=======
+>>>>>>> 62ffa4463d7e27a85c2fbaec95a84a7bf4cc18cb
 >>>>>>> lgg
 </html>
