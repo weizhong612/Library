@@ -16,6 +16,13 @@
 
 <h1>Reader Lists</h1>
 
+<%= form_tag readers_path, :method => 'get', id: 'search-form' do %>
+  <p>
+    <%= text_field_tag :search, params[:search], placeholder: "Search Readers" %>
+    <%= submit_tag "Search", :name => nil %>
+  </p>
+<% end %>
+
 <% @readers.each do |reader| %>
 	<p>Name: <%= link_to reader.first_name + ' ' + reader.last_name, reader %></p>
 	<p>
@@ -24,3 +31,12 @@
 	</p>
 	<hr />
 <% end %>
+<<<<<<< HEAD
+=======
+
+<p>
+	<%= link_to "Add a New Reader", new_reader_path %>
+	<%= link_to "Report", '/program/report' %>
+	<%= link_to "log out", login_path %>
+</p>
+>>>>>>> ba486c9beda0b09002b059a142f117e7465e6df0
