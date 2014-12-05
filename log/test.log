@@ -1,0 +1,568 @@
+  [1m[36m (16.4ms)[0m  [1mCREATE TABLE "readers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "date_of_birth" date, "program" varchar(255), "reg_location" varchar(255), "reg_date" date, "mid_date" date, "mid_location" varchar(255), "mid_initial" varchar(255), "end_date" date, "end_location" varchar(255), "end_initial" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (10.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (10.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (9.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141114235846')
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 21:33:48', '2014-11-15 21:33:48', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 21:33:48', '2014-11-15 21:33:48', 298486374)[0m
+  [1m[35m (20.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+  Rendered staff_pages/help.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 869ms (Views: 868.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 21:42:24', '2014-11-15 21:42:24', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 21:42:24', '2014-11-15 21:42:24', 298486374)[0m
+  [1m[35m (8.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered staff_pages/about.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:03:27', '2014-11-15 22:03:27', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:03:27', '2014-11-15 22:03:27', 298486374)[0m
+  [1m[35m (8.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered staff_pages/about.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 24ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:17:23', '2014-11-15 22:17:23', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:17:23', '2014-11-15 22:17:23', 298486374)[0m
+  [1m[35m (8.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered staff_pages/about.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:22:20', '2014-11-15 22:22:20', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:22:20', '2014-11-15 22:22:20', 298486374)[0m
+  [1m[35m (10.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered staff_pages/about.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:24:14', '2014-11-15 22:24:14', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:24:14', '2014-11-15 22:24:14', 298486374)[0m
+  [1m[35m (10.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered staff_pages/about.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 29ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:30:37', '2014-11-15 22:30:37', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:30:37', '2014-11-15 22:30:37', 298486374)[0m
+  [1m[35m (12.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered staff_pages/about.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:49:46', '2014-11-15 22:49:46', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:49:46', '2014-11-15 22:49:46', 298486374)[0m
+  [1m[35m (10.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered staff_pages/about.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:54:18', '2014-11-15 22:54:18', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:54:18', '2014-11-15 22:54:18', 298486374)[0m
+  [1m[35m (9.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered staff_pages/about.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:56:57', '2014-11-15 22:56:57', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 22:56:57', '2014-11-15 22:56:57', 298486374)[0m
+  [1m[35m (6.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered staff_pages/about.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 23:06:03', '2014-11-15 23:06:03', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-15 23:06:03', '2014-11-15 23:06:03', 298486374)[0m
+  [1m[35m (9.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered staff_pages/about.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-17 05:22:54', '2014-11-17 05:22:54', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-17 05:22:54', '2014-11-17 05:22:54', 298486374)[0m
+  [1m[35m (11.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------
+StaffControllerTest: test_should_get_log
+----------------------------------------
+Processing by StaffController#log as HTML
+  Rendered staff/log.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 190ms (Views: 189.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-17 05:24:03', '2014-11-17 05:24:03', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-17 05:24:03', '2014-11-17 05:24:03', 298486374)[0m
+  [1m[35m (9.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered staff_pages/about.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------
+StaffControllerTest: test_should_get_log
+----------------------------------------
+Processing by StaffController#log as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-17 05:30:14', '2014-11-17 05:30:14', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-17 05:30:14', '2014-11-17 05:30:14', 298486374)[0m
+  [1m[35m (9.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------
+StaffControllerTest: test_should_get_log
+----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 340ms (Views: 340.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------
+LoginControllerTest: test_should_get_new
+----------------------------------------
+Processing by LoginController#new as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-17 05:31:46', '2014-11-17 05:31:46', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-17 05:31:46', '2014-11-17 05:31:46', 298486374)[0m
+  [1m[35m (11.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------
+LoginControllerTest: test_should_get_new
+----------------------------------------
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------
+StaffControllerTest: test_should_get_log
+----------------------------------------
+Processing by StaffController#log as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "readers"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-17 05:44:56', '2014-11-17 05:44:56', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "readers" ("first_name", "last_name", "date_of_birth", "program", "reg_location", "reg_date", "mid_date", "mid_location", "mid_initial", "end_date", "end_location", "end_initial", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-14', '2014-11-14', 'MyString', 'MyString', '2014-11-14', 'MyString', 'MyString', '2014-11-17 05:44:56', '2014-11-17 05:44:56', 298486374)[0m
+  [1m[35m (12.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------
+LoginControllerTest: test_should_get_new
+----------------------------------------
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (34.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 84ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+StaffPagesControllerTest: test_should_get_about
+-----------------------------------------------
+Processing by StaffPagesController#about as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_help
+----------------------------------------------
+Processing by StaffPagesController#help as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 136ms (Views: 135.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+StaffPagesControllerTest: test_should_get_home
+----------------------------------------------
+Processing by StaffPagesController#home as HTML
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
