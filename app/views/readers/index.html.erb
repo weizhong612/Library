@@ -13,6 +13,13 @@
 
 <h1>Reader Lists</h1>
 
+<%= form_tag readers_path, :method => 'get', id: 'search-form' do %>
+  <p>
+    <%= text_field_tag :search, params[:search], placeholder: "Search Readers" %>
+    <%= submit_tag "Search", :name => nil %>
+  </p>
+<% end %>
+
 <% @readers.each do |reader| %>
 	<p>Name: <%= link_to reader.first_name + ' ' + reader.last_name, reader %></p>
 	<p>
