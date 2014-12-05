@@ -10485,3 +10485,2041 @@ Started GET "/assets/readers.js?body=1" for 165.91.49.156 at 2014-11-24 21:16:32
 
 
 Started GET "/assets/staffs.js?body=1" for 165.91.49.156 at 2014-11-24 21:16:32 +0000
+
+
+Started GET "/home" for 165.91.49.156 at 2014-11-24 22:43:36 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 125ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.49.156 at 2014-11-24 22:43:37 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 108ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.49.156 at 2014-11-24 22:43:41 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i4KI38PaWCeenOZXK/OpT+AAmIZOe9C3joYI2ofPfLg=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.2ms)[0m  SELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 86ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/readers" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered readers/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 103ms (Views: 98.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.49.156 at 2014-11-24 22:43:42 +0000
+
+
+Started GET "/" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.253 at 2014-11-25 15:19:27 +0000
+
+
+Started GET "/" for 165.91.13.253 at 2014-11-25 15:23:47 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 88ms (Views: 86.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.253 at 2014-11-25 15:23:49 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.253 at 2014-11-25 15:23:51 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 88ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.253 at 2014-11-25 15:24:46 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8VhYMZRmfQxyTuZHSSqUZ74rphjyqnkNfZKp8vWyveQ=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.3ms)[0m  SELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1
+  Rendered login/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 149ms (Views: 78.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for 165.91.13.253 at 2014-11-25 15:24:51 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8VhYMZRmfQxyTuZHSSqUZ74rphjyqnkNfZKp8vWyveQ=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.3ms)[0m  [1mSELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1[0m
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 71ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.253 at 2014-11-25 15:24:51 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.3ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered readers/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 92ms (Views: 90.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/program/index" for 165.91.13.253 at 2014-11-25 15:33:27 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 90ms (Views: 89.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.253 at 2014-11-25 15:33:46 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 91ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.13.41 at 2014-12-04 15:33:43 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 228ms (Views: 217.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.41 at 2014-12-04 15:33:44 +0000
+
+
+Started GET "/" for 165.91.13.41 at 2014-12-04 15:39:59 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 117ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.41 at 2014-12-04 15:39:59 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.41 at 2014-12-04 15:39:59 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.41 at 2014-12-04 15:39:59 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.41 at 2014-12-04 15:40:00 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:00 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.41 at 2014-12-04 15:40:00 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:00 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:00 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:00 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:00 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:00 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:00 +0000
+
+
+Started GET "/home" for 165.91.13.41 at 2014-12-04 15:40:07 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 88ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.41 at 2014-12-04 15:40:09 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 119ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.41 at 2014-12-04 15:40:20 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lhRgE7iiWwNMz3bzMA9UHqcGOio3t4ujSFkzz7WLw/M=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.2ms)[0m  SELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 90ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/readers" for 165.91.13.41 at 2014-12-04 15:40:20 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered readers/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 102ms (Views: 97.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.41 at 2014-12-04 15:40:21 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/program/index" for 165.91.13.41 at 2014-12-04 15:46:19 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 93ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.41 at 2014-12-04 15:46:27 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/program/index" for 165.91.13.41 at 2014-12-04 15:46:52 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/readers/new" for 165.91.13.41 at 2014-12-04 15:47:04 +0000
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 125ms (Views: 119.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/readers" for 165.91.13.41 at 2014-12-04 15:47:12 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.3ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered readers/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 15:17:29 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 173ms (Views: 160.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:17:29 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:17:29 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:17:29 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:17:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:17:29 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:17:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:17:30 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:17:30 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:17:30 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:17:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:17:30 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:17:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:17:30 +0000
+
+
+Started GET "/readers/new" for 165.91.13.156 at 2014-12-05 15:24:41 +0000
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 108ms (Views: 106.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:25:01 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 107ms (Views: 104.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:25:19 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 101ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:25:25 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 88ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 15:25:56 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (12.2ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered readers/index.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 150ms (Views: 136.4ms | ActiveRecord: 12.2ms)
+
+
+Started GET "/program/index" for 165.91.13.156 at 2014-12-05 15:26:08 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 165.91.13.156 at 2014-12-05 15:26:54 +0000
+Processing by StaffPagesController#help as HTML
+  Rendered staff_pages/help.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 102ms (Views: 100.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:29:23 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 106ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:29:25 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 97ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 15:29:31 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.2ms)[0m  SELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 92ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 15:29:31 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered readers/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 93ms (Views: 90.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:29:31 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:29:31 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:29:31 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:29:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:29:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:29:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:29:31 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:29:31 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:29:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:29:32 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:29:32 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:29:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:29:32 +0000
+
+
+Started GET "/program/index" for 165.91.13.156 at 2014-12-05 15:33:23 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:33:25 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 101ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:33:26 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 15:37:23 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.3ms)[0m  SELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 71ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 15:37:23 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered readers/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 112ms (Views: 110.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:37:23 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:37:24 +0000
+
+
+Started GET "/program/index" for 165.91.13.156 at 2014-12-05 15:37:25 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 90ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:38:19 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 97ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:38:21 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 97ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.3ms)[0m  SELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 73ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered readers/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 92ms (Views: 90.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:26 +0000
+
+
+Started GET "/program/index" for 165.91.13.156 at 2014-12-05 15:38:35 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 126ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:38:36 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 88ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:38:37 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 103ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.5ms)[0m  SELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1
+  Rendered login/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 156ms (Views: 84.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:38:42 +0000
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 15:39:09 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.5ms)[0m  [1mSELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1[0m
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 73ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.4ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered readers/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 98ms (Views: 96.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:39:10 +0000
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 15:45:05 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 103ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:06 +0000
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:45:07 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 101ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:45:08 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 96ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.3ms)[0m  [1mSELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1[0m
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 72ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.3ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered readers/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 114ms (Views: 112.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:45:13 +0000
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 15:47:07 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 83ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:07 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:07 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:07 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:07 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:07 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:07 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:07 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:07 +0000
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 90ms (Views: 88.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:18 +0000
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:47:19 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.4ms)[0m  [1mSELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1[0m
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 75ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.3ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered readers/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 89ms (Views: 87.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:47:39 +0000
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:47:44 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 90ms (Views: 88.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/program/index" for 165.91.13.156 at 2014-12-05 15:51:07 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:51:19 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:51:20 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 102ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 15:51:25 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.3ms)[0m  [1mSELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1[0m
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 72ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.3ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered readers/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 90ms (Views: 88.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:51:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:51:27 +0000
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:51:30 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 98ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 15:52:57 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 100ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:52:57 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:52:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:52:57 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:52:57 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:52:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:52:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:52:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:52:57 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:52:58 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:52:58 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:52:58 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:52:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:52:58 +0000
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:53:14 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:53:24 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 91ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 96ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:53:32 +0000
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:53:34 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 84ms (Views: 83.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:45 +0000
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:55:46 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 97ms (Views: 96.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:55:52 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 91ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 15:55:58 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.3ms)[0m  [1mSELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1[0m
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 71ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 15:55:58 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.3ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered readers/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 105ms (Views: 103.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:55:59 +0000
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 15:57:23 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 94ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:24 +0000
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:57:25 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 79ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:57:26 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 86ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 15:57:31 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.4ms)[0m  [1mSELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1[0m
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 72ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 15:57:31 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.3ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered readers/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 93ms (Views: 91.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:32 +0000
+
+
+Started GET "/program/index" for 165.91.13.156 at 2014-12-05 15:57:40 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 91ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:57:45 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 112ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 15:57:46 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 129ms (Views: 127.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 15:57:52 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.4ms)[0m  [1mSELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1[0m
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 71ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 15:57:52 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.3ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered readers/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 90ms (Views: 88.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:52 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:52 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:52 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:52 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 15:57:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:52 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:52 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:53 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:53 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 15:57:53 +0000
+
+
+Started GET "/program/report" for 165.91.13.156 at 2014-12-05 15:57:55 +0000
+Processing by ProgramController#report as HTML
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered program/report.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 103ms (Views: 100.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/program/index" for 165.91.13.156 at 2014-12-05 15:57:59 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 100ms (Views: 99.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 15:58:04 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 95ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:11 +0000
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 16:00:12 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 16:00:13 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 80ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.3ms)[0m  SELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 72ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered readers/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 88ms (Views: 87.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:18 +0000
+
+
+Started GET "/program/report" for 165.91.13.156 at 2014-12-05 16:00:21 +0000
+Processing by ProgramController#report as HTML
+  [1m[35mReader Load (0.3ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered program/report.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 94ms (Views: 91.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 16:00:24 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered readers/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/readers/new" for 165.91.13.156 at 2014-12-05 16:00:26 +0000
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 98ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 16:00:31 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.5ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered readers/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 95ms (Views: 93.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 91ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 16:00:38 +0000
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 104ms (Views: 102.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 16:02:30 +0000
+
+
+Started GET "/staffs" for 165.91.13.156 at 2014-12-05 16:02:34 +0000
+Processing by StaffsController#index as HTML
+  [1m[36mStaff Load (0.3ms)[0m  [1mSELECT "staffs".* FROM "staffs"[0m
+  Rendered staffs/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 116ms (Views: 114.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 16:04:58 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 98ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 16:04:59 +0000
+
+
+Started GET "/staffs" for 165.91.13.156 at 2014-12-05 16:05:00 +0000
+Processing by StaffsController#index as HTML
+  [1m[35mStaff Load (0.3ms)[0m  SELECT "staffs".* FROM "staffs"
+  Rendered staffs/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 92ms (Views: 90.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 16:05:12 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 100ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 16:05:12 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 16:05:12 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 16:05:12 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 16:05:12 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 16:05:12 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 16:05:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 16:05:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 16:05:12 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 16:05:12 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 16:05:12 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 16:05:13 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 16:05:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 16:05:13 +0000
+
+
+Started GET "/staffs" for 165.91.13.156 at 2014-12-05 16:05:46 +0000
+Processing by StaffsController#index as HTML
+  [1m[36mStaff Load (0.4ms)[0m  [1mSELECT "staffs".* FROM "staffs"[0m
+  Rendered staffs/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 100ms (Views: 98.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/staffs/1/edit" for 165.91.13.156 at 2014-12-05 16:05:51 +0000
+Processing by StaffsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mStaff Load (2.1ms)[0m  SELECT  "staffs".* FROM "staffs"  WHERE "staffs"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered staffs/edit.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 125ms (Views: 119.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/staffs" for 165.91.13.156 at 2014-12-05 16:05:58 +0000
+Processing by StaffsController#index as HTML
+  [1m[36mStaff Load (0.3ms)[0m  [1mSELECT "staffs".* FROM "staffs"[0m
+  Rendered staffs/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 93ms (Views: 91.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 16:06:10 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 95ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:11 +0000
+
+
+Started GET "/home" for 165.91.13.156 at 2014-12-05 16:06:17 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 105ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.156 at 2014-12-05 16:06:18 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 91ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.156 at 2014-12-05 16:06:22 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBRYxdb4leKz1fvMGtAJ7rb6PtV+4qzjNs0jBnBZAWY=", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.3ms)[0m  SELECT  "staffs".* FROM "staffs"  WHERE "staffs"."user_name" = '123' LIMIT 1
+Redirected to https://606-gegeli.c9.io/readers
+Completed 302 Found in 72ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered readers/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 100ms (Views: 98.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:23 +0000
+
+
+Started GET "/" for 165.91.13.156 at 2014-12-05 16:06:31 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 98ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:31 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:31 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:31 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.156 at 2014-12-05 16:06:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:32 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:32 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:32 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:32 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.156 at 2014-12-05 16:06:32 +0000
