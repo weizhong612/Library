@@ -14,28 +14,28 @@
 ActiveRecord::Schema.define(version: 20141115203717) do
 
   create_table "readers", force: true do |t|
-    t.string   "first_name"
-    t.string   "last_name"
+    t.string   "first_name",    limit: 255
+    t.string   "last_name",     limit: 255
     t.date     "date_of_birth"
-    t.string   "program"
-    t.string   "reg_location"
+    t.string   "program",       limit: 255
+    t.string   "reg_location",  limit: 255
     t.date     "reg_date"
     t.date     "mid_date"
-    t.string   "mid_location"
-    t.string   "mid_initial"
+    t.string   "mid_location",  limit: 255
+    t.string   "mid_initial",   limit: 255
     t.date     "end_date"
-    t.string   "end_location"
-    t.string   "end_initial"
+    t.string   "end_location",  limit: 255
+    t.string   "end_initial",   limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "staffs", force: true do |t|
-    t.string   "user_name"
-    t.string   "password_digest"
-    t.string   "first_name"
-    t.string   "last_name"
-    t.string   "location"
+    t.string   "user_name",       limit: 255
+    t.string   "password_digest", limit: 255
+    t.string   "first_name",      limit: 255
+    t.string   "last_name",       limit: 255
+    t.string   "location",        limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
