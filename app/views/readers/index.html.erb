@@ -1,13 +1,23 @@
-<div class="container head">
-  <h1>Summer Reading Program</h1>
-  <ul id="application-head">
-    <li><%= link_to "Home", index_program_path %></li>
-    
-    <li><%= link_to "About", '/program/about' %></li>
-    <li><%= link_to "log out", login_path %></li>
-  </ul>
-</div>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="container">
+  		<div class="navbar-header">
+  			<%= link_to "Summer Reading Program", {controller: "program", action: "index"}, class: "navbar-toggle collapsed btn btn-inverse" %>
+  		</div>
+  		<div class="navbar-collapse collapse nav-bar-left">
+  			<ul id="application-head" class="nav navbar-nav">
+    			<li><%= link_to "Home", index_program_path %></li>
+    			<li><%= link_to "About", '/program/about' %></li>
+   				<li><%= link_to "log out", login_path %></li>
+  			</ul>
 
+      	<%= form_tag readers_path,:class=>'navbar-form navbar-right', :method => 'get', id: 'search-form' do %>
+  			<p>
+    		<%= text_field_tag :search, params[:search], placeholder: "Search Reader", :class=>'form-control'%>
+    		<%= submit_tag "Search", :name => nil, :class=>'btn btn-default' %>
+  			</p>
+		<% end %>
+	</div>
+</nav>
 
 <li><%= link_to "New Reader", new_reader_path %></li>
 <li><%= link_to "Search", '#' %></li>
@@ -16,12 +26,7 @@
 
 <h1>Reader Lists</h1>
 
-<%= form_tag readers_path, :method => 'get', id: 'search-form' do %>
-  <p>
-    <%= text_field_tag :search, params[:search], placeholder: "Search Readers" %>
-    <%= submit_tag "Search", :name => nil %>
-  </p>
-<% end %>
+
 
 <% @readers.each do |reader| %>
 	<p>Name: <%= link_to reader.first_name + ' ' + reader.last_name, reader %></p>
@@ -31,12 +36,9 @@
 	</p>
 	<hr />
 <% end %>
-<<<<<<< HEAD
-=======
 
 <p>
 	<%= link_to "Add a New Reader", new_reader_path %>
 	<%= link_to "Report", '/program/report' %>
 	<%= link_to "log out", login_path %>
 </p>
->>>>>>> ba486c9beda0b09002b059a142f117e7465e6df0
