@@ -13,7 +13,8 @@
     	<td><%= p[:total]%></td> 
     	<td><%= p[:halfway]%></td>
     	<td><%= p[:finished]%></td>
-    	<td><%= link_to "Reader List", readers_path %></td>
+    	
+    	<td><%= link_to "Reader List", readers_path(:program=>p[:name]) %></td>
   	</tr>
 <% end %>
 </table>
