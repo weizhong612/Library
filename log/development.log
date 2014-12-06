@@ -12595,6 +12595,7 @@ Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-05 11:02:46 -060
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 11:02:46 -0600
+<<<<<<< HEAD
 
 
 Started GET "/readers" for 127.0.0.1 at 2014-12-05 11:16:17 -0600
@@ -16258,3 +16259,105 @@ Processing by ReadersController#show as HTML
   [1m[36mReader Load (0.1ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
   Rendered readers/show.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 154ms (Views: 153.5ms | ActiveRecord: 0.1ms)
+=======
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddProgramView (20141206214947)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141206214947"]]
+  [1m[35m (14.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+>>>>>>> 315561cec0d1c4600f5bb3eb339d2bce50784c53
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/login" for 127.0.0.1 at 2014-12-06 17:51:37 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 381ms (Views: 357.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:38 -0600
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:51:42 -0600
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.2ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 174ms (Views: 171.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:51:43 -0600

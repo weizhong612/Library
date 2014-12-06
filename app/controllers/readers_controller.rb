@@ -2,8 +2,12 @@ class ReadersController < ApplicationController
 	def index
 		if params[:search]
 			@readers = Reader.search(params[:search]).order("created_at DESC")			
-		else
+		else 
+			if params[:program]
+			@readers = Reader.all.select{|reader| reader.program==params[:program]}
+			else
 			@readers = Reader.all.order('created_at DESC')
+			end
 		end
 	end
 

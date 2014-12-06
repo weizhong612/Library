@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141115203717) do
+ActiveRecord::Schema.define(version: 20141206214947) do
 
   create_table "readers", force: true do |t|
     t.string   "first_name",    limit: 255
