@@ -1,64 +1,67 @@
-<h1>Update Information</h1>
-
 <%= form_for @reader do |form| %>
+
+<div class="bootstrap-table">
 	<h2>Personal Information</h2>
-	<p>
-		<%= form.label :first_Name %>
-		<%= @reader.first_name %>
-	</p>
-	<p>
-		<%= form.label :last_name %>
-		<%= @reader.last_name %>
-	</p>
-	<p>
-		<%= form.label :date_of_birth %>
-		<%= @reader.date_of_birth %>
-	</p>
-	<p>
-		<%= form.label :program %>
-		<%= @reader.program %>
-		
-	</p>
-	<p>
-		<%= form.label :location %>
-		<%= @reader.reg_location %>
-	</p>
-	<p>
-		<%= form.label :register_date %>
-		<%= @reader.reg_date %>
-	</p>
-	<hr />
-	<h2>Halfway Status</h2>
-	<p>
-		<%= form.label :date %>
-		<%= form.date_field :mid_date %>
-	</p>
-	<p>
-		<%= form.label :location %>
-		<%= select(:reader, :mid_location, [['College Station', 'College Station'], ['Bryan', 'Bryan']]) %>
-		
-	</p>
-	<p>
-		<%= form.label :initial %>
-		<%= form.text_field :mid_initial %>
-	</p>	
-	<hr />
-	<h2>Final Status</h2>
-	<p>
-		<%= form.label :date %>
-		<%= form.date_field :end_date %>
-	</p>
-	<p>
-		<%= form.label :location %>
-		<%= select(:reader, :end_location, [['College Station', 'College Station'], ['Bryan', 'Bryan']]) %>
-		
-	</p>
-	<p>
-		<%= form.label :initial %>
-		<%= form.text_field :end_initial %>
-	</p>
-	<p>
+	<div class="fixed-table-container">
+		<div class="fixed-table-header">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th><div class="th-inner">First Name</div></th>
+						<th><div class="th-inner">Last Name</div></th>
+						<th><div class="th-inner">DOB</div></th>
+						<th><div class="th-inner">Program</div></th>
+						<th><div class="th-inner">Location</div></th>
+						<th><div class="th-inner">Register Date</div></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+
+		<td><%= @reader.first_name%></td>
+		<td><%= @reader.last_name%></td>
+		<td><%= @reader.date_of_birth%></td>
+		<td><%= @reader.program%></td>
+		<td><%= @reader.reg_location%></td>
+		<td><%= @reader.reg_date%></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</div>
+</div>
+
+<div class="bootstrap-table">
+	<h2>Program Status</h2>
+	<div class="fixed-table-container">
+		<div class="fixed-table-header">
+			
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th><div class="th-inner">Halfway Date</div></th>
+						<th><div class="th-inner">Staff Initial</div></th>
+						<th><div class="th-inner">Finish Date</div></th>
+						<th><div class="th-inner">Staff Initial</div></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+
+		<td><%= form.date_field :mid_date %></td>
+		<td><%= form.text_field :mid_initial %></td>
+		<td><%= form.date_field :end_date %></td>
+		<td><%= form.text_field :end_initial %></td>
+					</tr>
+				</tbody>
+			</table>
+			<p>
 		<%= form.submit 'Update' %>
 		<%= link_to 'Cancel', readers_path %>
 	</p>
-<% end %>
+			<% end %>
+		</div>
+
+	</div>
+</div>

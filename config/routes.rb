@@ -23,7 +23,6 @@ Rails.application.routes.draw do
     get 'program/report', to: 'program#report', as: 'report_program'
     get 'program/about', to: 'program#about', as: 'about_program'
      
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
