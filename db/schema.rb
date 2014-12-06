@@ -11,16 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20141206145059) do
+ActiveRecord::Schema.define(version: 20141206214947) do
 
   create_table "lib_managers", force: true do |t|
-    t.string "name"
-    t.string "password_digest"
+    t.string "name",            limit: 255
+    t.string "password_digest", limit: 255
   end
-=======
-ActiveRecord::Schema.define(version: 20141206214947) do
->>>>>>> 315561cec0d1c4600f5bb3eb339d2bce50784c53
 
   create_table "readers", force: true do |t|
     t.string   "first_name",    limit: 255

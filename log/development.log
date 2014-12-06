@@ -16704,3 +16704,1027 @@ Migrating to AddProgramView (20141206214947)
   [1m[35m (14.2ms)[0m  commit transaction
   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 >>>>>>> 315561cec0d1c4600f5bb3eb339d2bce50784c53
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddProgramView (20141206214947)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141206214947"]]
+  [1m[35m (77.4ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 165.91.12.102 at 2014-12-06 23:27:37 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (6.0ms)
+Warning. Error encountered while saving cache 6999747e50471ecd3e208499ef3d94892d8ed9c7/application.css.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 35467d4f80e95df6eda84c045946d75c7240583e/_bootstrap-sprockets.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 35467d4f80e95df6eda84c045946d75c7240583e/_bootstrap.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_variables.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_mixins.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_hide-text.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_opacity.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_image.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_labels.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_reset-filter.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_resize.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_responsive-visibility.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_size.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_tab-focus.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_text-emphasis.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_text-overflow.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_vendor-prefixes.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_alerts.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_buttons.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_panels.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_pagination.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_list-group.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_nav-divider.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_forms.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_progress-bar.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_table-row.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_background-variant.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_border-radius.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_gradients.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_clearfix.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_center-block.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_nav-vertical-align.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_grid-framework.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_grid.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_normalize.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_print.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_glyphicons.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_scaffolding.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_type.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_code.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_grid.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_tables.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_forms.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_buttons.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_component-animations.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_dropdowns.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_button-groups.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_input-groups.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_navs.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_navbar.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_pagination.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_pager.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_labels.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_badges.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_jumbotron.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_thumbnails.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_alerts.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_progress-bars.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_media.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_list-group.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_panels.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_responsive-embed.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_wells.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_close.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_modals.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_tooltip.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_popovers.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_carousel.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_utilities.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_responsive-utilities.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+Warning. Error encountered while saving cache 6999747e50471ecd3e208499ef3d94892d8ed9c7/m_login.css.scssc: can't dump anonymous class #<Class:0x0000000301a9c0>
+
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 6014ms (Views: 5999.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:27:44 +0000
+
+
+Started GET "/" for 165.91.12.102 at 2014-12-06 23:28:32 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 900ms (Views: 898.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:28:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:28:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:28:34 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:28:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:28:34 +0000
+
+
+Started GET "/login" for 165.91.12.102 at 2014-12-06 23:28:50 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (26.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 689ms (Views: 687.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:28:51 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:28:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:28:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:28:51 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:28:51 +0000
+
+
+Started POST "/login" for 165.91.12.102 at 2014-12-06 23:28:57 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4PyS/dBGiSzo3NOJN3WcDwSqprt4e9oG3MZF8wk775Yri/t5ea77ygomu8miXfofYpSoQ553c8r6msSFOd2LaQ==", "login"=>{"user_name"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.6ms)[0m  SELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1  [["user_name", ""]]
+  Rendered login/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 780ms (Views: 748.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:28:59 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:28:59 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:28:59 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:28:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:28:59 +0000
+
+
+Started GET "/" for 165.91.12.102 at 2014-12-06 23:29:08 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 765ms (Views: 763.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:09 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:10 +0000
+
+
+Started GET "/login" for 165.91.12.102 at 2014-12-06 23:29:12 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 684ms (Views: 683.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:13 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:14 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:15 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:15 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:15 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:15 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:15 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:15 +0000
+
+
+Started GET "/" for 165.91.12.102 at 2014-12-06 23:29:15 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 837ms (Views: 836.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.12.102 at 2014-12-06 23:29:16 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 900ms (Views: 898.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:17 +0000
+
+
+Started GET "/" for 165.91.12.102 at 2014-12-06 23:29:18 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 711ms (Views: 709.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:18 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:18 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:18 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:19 +0000
+
+
+Started GET "/login" for 165.91.12.102 at 2014-12-06 23:29:27 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 711ms (Views: 709.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:29 +0000
+
+
+Started POST "/login" for 165.91.12.102 at 2014-12-06 23:29:33 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tyGmim41TE5dZu5/iRrwqcRGjxBtBrk7pj8mz6qntuJ8Vs8Ox90+qL+chj8cMpa5oniB6IsKEPeAY6e5mkHSHQ==", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.2ms)[0m  [1mSELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1[0m  [["user_name", "123"]]
+  Rendered login/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 811ms (Views: 808.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:34 +0000
+
+
+Started GET "/login" for 165.91.12.102 at 2014-12-06 23:29:48 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 649ms (Views: 647.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.12.102 at 2014-12-06 23:29:50 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 727ms (Views: 726.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.12.102 at 2014-12-06 23:29:51 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 871ms (Views: 869.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:29:53 +0000
+
+
+Started GET "/login" for 165.91.12.102 at 2014-12-06 23:30:10 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 757ms (Views: 755.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:11 +0000
+
+
+Started POST "/login" for 165.91.12.102 at 2014-12-06 23:30:17 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OZZq6zZklwBFa+qAPliXCwaNlfL0SM2jujyoO7O7oany4QNvn4zl5qeRgsCrcPEbYLObChJEZG+cYClNg13FVg==", "login"=>{"user_name"=>"BBB", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.2ms)[0m  SELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1  [["user_name", "BBB"]]
+  Rendered login/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 635ms (Views: 633.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:18 +0000
+
+
+Started GET "/login" for 165.91.12.102 at 2014-12-06 23:30:21 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 676ms (Views: 675.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.12.102 at 2014-12-06 23:30:23 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 656ms (Views: 655.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.12.102 at 2014-12-06 23:30:23 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 823ms (Views: 821.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:24 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:24 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:24 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:24 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:30:25 +0000
+
+
+Started GET "/" for 165.91.12.102 at 2014-12-06 23:31:15 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 628ms (Views: 627.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:16 +0000
+
+
+Started GET "/home" for 165.91.12.102 at 2014-12-06 23:31:27 +0000
+Processing by StaffPagesController#home as HTML
+  Rendered staff_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 788ms (Views: 786.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.12.102 at 2014-12-06 23:31:28 +0000
