@@ -15261,3 +15261,705 @@ Processing by ReadersController#index as HTML
   [1m[36mReader Load (0.1ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
   Rendered readers/index.html.erb within layouts/application (2.6ms)
 Completed 200 OK in 158ms (Views: 156.8ms | ActiveRecord: 0.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-06 17:40:31 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 350ms (Views: 328.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:40:31 -0600
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.2ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 175ms (Views: 171.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:32 -0600
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:40:37 -0600
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 134ms (Views: 132.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:40:37 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:40:38 -0600
+
+
+Started GET "/program/report" for 127.0.0.1 at 2014-12-06 17:40:39 -0600
+Processing by ProgramController#report as HTML
+  [1m[35mReader Load (0.1ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered program/report.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 132ms (Views: 130.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:40:41 -0600
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.2ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 158ms (Views: 157.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/readers/2" for 127.0.0.1 at 2014-12-06 17:40:43 -0600
+Processing by ReadersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReader Load (0.2ms)[0m  SELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered readers/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 204ms (Views: 159.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:40:49 -0600
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.2ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 164ms (Views: 163.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:40:58 -0600
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.1ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 155ms (Views: 154.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/program/index" for 127.0.0.1 at 2014-12-06 17:41:03 -0600
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 154ms (Views: 153.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-12-06 17:41:04 -0600
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (63.3ms)
+Completed 200 OK in 227ms (Views: 226.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-12-06 17:41:09 -0600
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BxEn08PQcktC+FrJmGfquWpExp7uaniHBzxShtopHOdmSFRELV7H4vr6R8yQgxf5eU8lE69QYcsiP+dAwp+bAQ==", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.1ms)[0m  [1mSELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1[0m  [["user_name", "123"]]
+Redirected to http://localhost:3000/readers
+Completed 302 Found in 86ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:41:09 -0600
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.2ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 189ms (Views: 187.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:09 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:09 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:10 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:10 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:10 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:10 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:10 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:10 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:10 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:10 -0600
+
+
+Started GET "/readers/2" for 127.0.0.1 at 2014-12-06 17:41:21 -0600
+Processing by ReadersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReader Load (0.1ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered readers/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 201ms (Views: 199.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-12-06 17:41:26 -0600
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 214ms (Views: 213.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-12-06 17:41:31 -0600
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 154ms (Views: 153.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-12-06 17:41:37 -0600
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sx3RgZtNjyKXPa7QAdyoM2HRnMOGe4/GKHU/72/aOSrSRKIWdcM6iy8/s9UJOFVzctp/TsdBlooNdoopd2y+zA==", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.1ms)[0m  SELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1  [["user_name", "123"]]
+Redirected to http://localhost:3000/readers
+Completed 302 Found in 77ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:41:37 -0600
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 181ms (Views: 179.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:37 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:37 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:37 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:37 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:38 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:38 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:38 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:38 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:38 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:38 -0600
+
+
+Started POST "/login" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HWYVTIayGt5Da4u9TeE8ENwkncMSyqh85ItQNZvJ/cZ8P2bbaDyvd/tplrhFBcFQzy9+TlPwsTDBiOXzg396IA==", "login"=>{"user_name"=>"abs", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.1ms)[0m  SELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1  [["user_name", "abs"]]
+  Rendered login/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 171ms (Views: 170.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:44 -0600
+
+
+Started POST "/login" for 127.0.0.1 at 2014-12-06 17:41:49 -0600
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GCaPD+cZ2yYmsAU567I6O1sk3jaRxZbjr79uAO6Tm+Z5f/yYCZduj56yGDzjVsd7SC89u9D/j6+KvNvG9iUcAA==", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.1ms)[0m  [1mSELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1[0m  [["user_name", "123"]]
+Redirected to http://localhost:3000/readers
+Completed 302 Found in 75ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.2ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 180ms (Views: 179.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:41:50 -0600
+
+
+Started GET "/program/report" for 127.0.0.1 at 2014-12-06 17:41:54 -0600
+Processing by ProgramController#report as HTML
+  [1m[36mReader Load (0.1ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered program/report.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 166ms (Views: 163.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:42:12 -0600
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.8ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 167ms (Views: 165.5ms | ActiveRecord: 0.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/login" for 127.0.0.1 at 2014-12-06 17:43:32 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 394ms (Views: 372.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:33 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-06 17:43:35 -0600
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.2ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 172ms (Views: 168.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:36 -0600
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.2ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 159ms (Views: 158.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.1ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 119ms (Views: 118.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:39 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:40 -0600
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:43:40 -0600
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.1ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 170ms (Views: 169.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:43:40 -0600
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.2ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 186ms (Views: 185.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 158ms (Views: 157.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:42 -0600
+
+
+Started POST "/login" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xT714QgafMV+H55Jdvdo43Z0w0MxPhUCK3oVzB1LjF+kZ4Z25pTJbMYdg0x+E5WjZX8gznAEDE4OeaAKBf0LuQ==", "login"=>{"user_name"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.2ms)[0m  [1mSELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1[0m  [["user_name", "123"]]
+Redirected to http://localhost:3000/readers
+Completed 302 Found in 96ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/readers" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.5ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 193ms (Views: 191.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/readers.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/assets/staff_pages.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/assets/staffs.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/assets/readers.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/assets/staff_pages.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/assets/staffs.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-06 17:43:48 -0600
+
+
+Started GET "/readers/2" for 127.0.0.1 at 2014-12-06 17:43:50 -0600
+Processing by ReadersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReader Load (0.2ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered readers/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 176ms (Views: 172.5ms | ActiveRecord: 0.2ms)
