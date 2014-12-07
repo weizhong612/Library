@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
  
 
+  #get 'm_login/new'
+  get 'm_login'  => 'm_login#new'
+  post   'm_login'   => 'm_login#create'
+  delete 'm_logout'  => 'm_login#destroy'
+  
   get 'login'  => 'login#new'
   post   'login'   => 'login#create'
   delete 'logout'  => 'login#destroy'

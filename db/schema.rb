@@ -13,6 +13,11 @@
 
 ActiveRecord::Schema.define(version: 20141206214947) do
 
+  create_table "lib_managers", force: true do |t|
+    t.string "name",            limit: 255
+    t.string "password_digest", limit: 255
+  end
+
   create_table "readers", force: true do |t|
     t.string   "first_name",    limit: 255
     t.string   "last_name",     limit: 255
