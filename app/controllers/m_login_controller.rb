@@ -8,7 +8,7 @@ class MLoginController < ApplicationController
         redirect_to  staffs_path 
 
     else
-      flash[:danger] = 'Invalid UserName/password combination' # Not quite right!
+      flash[:danger] = 'Invalid UserName or Password' 
       render 'new'
     end
   end
