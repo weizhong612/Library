@@ -19,9 +19,11 @@
 
 html {
   overflow-y: scroll;
+  height:100%;
 }
 
 body {
+  height:100%;
 }
 
 section {
@@ -41,26 +43,33 @@ textarea {
 }
 
 .footer{
-  position:absolute;
+  position:relative;
   bottom:0;
   width:100%;
   padding:20px;
   background-color:#f5f5f5;
+  height:10%;
 }
 
 .footer-section{
   width:50%;
   float:left;
   text-align: center;
+  
 }
 
 input{
   margin:10px;
 }
 
+.container-block{
+  min-height:90%;
+}
+
 .container-margin-horizon{
   margin-left: 5%;
   margin-right: 5%;
+  
 } 
 
 .navbar .nav{
