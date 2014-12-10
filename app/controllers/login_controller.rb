@@ -9,7 +9,7 @@ class LoginController < ApplicationController
      redirect_to  readers_path 
 
     else
-      flash[:danger] = 'Invalid UserName/password combination' # Not quite right!
+      #flash[:danger] = 'Invalid UserName/password combination' # Not quite right!
       render 'new'
     end
   end
