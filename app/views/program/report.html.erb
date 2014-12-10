@@ -1,21 +1,69 @@
-<h1>This is the statistical report for Summer Reading Program.</h1>
-<table>
-	<tr>
-    <th>Program</th>
-    <th>Total</th> 
-    <th>Halfway</th>
-    <th>Finished</th>
-  </tr>
-  
+<div class="container container-margin-horizon">
+		<h1>
+    	Bryan College Station Public Library<br/>
+    	Summer Reading Program
+		</h1>
+</div>
+
+
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	
+	<div class="container-margin-horizon">
+  		<div class="navbar-header">
+  			<%= link_to "Summer Reading Program", {controller: "program", action: "index"}, class: "navbar-toggle collapsed btn btn-inverse" %>
+  		</div>
+  		<div class="navbar-collapse collapse nav-bar-left">
+  			<ul id="application-head" class="nav navbar-nav">
+    			<li><%= link_to "Home", index_program_path %></li>
+    			<li><%= link_to "New Reader", new_reader_path %></li>
+				<li class="active"><%= link_to "Programs", '/program/report' %></li>
+    			<li><%= link_to "About", '/program/about' %></li>
+   				<li><%= link_to "log out", login_path %></li>
+   				
+  			</ul>
+		</div>
+</nav>
+
+
+<div class="container-fluid container-margin-horizon">
+
 <% @program.each do |p| %>
-	<tr>
-    	<td><%= p[:name]%></td>
-    	<td><%= p[:total]%></td> 
+
+<div class="panel panel-default">
+  <!-- Default pane --->
+  <div class="panel-heading"><%= p[:name]%></div>
+
+  <!-- Table -->
+  
+  <div class="bootstrap-table">
+    
+	<div class="fixed-table-container">
+		<div class="fixed-table-header">
+			<table class="table table-hover">
+				<thead>
+				    <tr>
+						<th><div class="th-inner">Total Number</div></th>
+						<th><div class="th-inner">Halfway</div></th>
+						<th><div class="th-inner">Finished</div></th>
+						<th><div class="th-inner"> </div></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+
+		<td><%= p[:total]%></td> 
     	<td><%= p[:halfway]%></td>
     	<td><%= p[:finished]%></td>
+    	<td><%= link_to "Reader List", readers_path(:program=>p[:name]), :class=>"btn btn-default" %></td>
     	
-    	<td><%= link_to "Reader List", readers_path(:program=>p[:name]) %></td>
-  	</tr>
+					</tr>
+				</tbody>
+	</table>
+    </div>
+    </div>
+    </div>
+</div>
 <% end %>
-</table>
-<p><%= link_to "Back", readers_path %></p>
+<p><%= link_to "Back", readers_path , :class=>"btn btn-primary navbar-btn" %></p>
+
+</div>

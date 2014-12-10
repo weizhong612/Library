@@ -58,9 +58,8 @@
 					</tr>
 				</thead>
 				<tbody>
-					
-							<% @readers.each do |reader| %>
-		<tr>
+					<% @readers.each do |reader| %>
+					<tr>
 		<td><%= link_to reader.first_name + ' ' + reader.last_name, reader %></td>
 		<td><%= reader.id%></td>
 		<td><%= reader.reg_location%></td>
