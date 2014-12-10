@@ -8,4 +8,16 @@ module ApplicationHelper
       "#{page_title} | #{base_title}"
     end
   end
+  
+  def bootstrap_class_for flash_type
+    case flash_type
+      when :alert
+        "alert-block"
+      when :notice
+        "alert-info"
+      else
+        flash_type.to_s
+    end
+  end
+  
 end

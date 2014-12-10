@@ -1,28 +1,56 @@
-<div class="container head">
-  <h1>Summer Reading Program</h1>
-  <ul id="application-head">
-    <li><%= link_to "Library", index_program_path %></li>
-    
-    <li><%= link_to "About", '/program/about' %></li>
-    <li><%= link_to "Help", help_path %></li>
-  </ul>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="container">
+  		<div class="navbar-header">
+  			<%= link_to "Summer Reading Program", {controller: "program", action: "index"}, class: "navbar-toggle collapsed btn btn-inverse" %>
+  		</div>
+  		<div class="navbar-collapse collapse nav-bar-left">
+  			<ul id="application-head" class="nav navbar-nav">
+    			<li><%= link_to "Home", index_program_path %></li>
+    			<li><%= link_to "About", '/program/about' %></li>
+   				<li><%= link_to "log out", m_login_path %></li>
+  			</ul>
+	</div>
+</nav>
+
+<div class="container">
+
+<div>
+	<div clas="left"><h1>Staff Lists</h1></div>
+
+	<div class="right"><%= link_to "Add a New Staff", new_staff_path,:class=>"btn btn-primary" %></div>
+</div> 
+
+<div class="bootstrap-table">
+	<div class="fixed-table-container">
+		<div class="fixed-table-header">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th><div class="th-inner">User Name</div></th>
+						<th><div class="th-inner">Staff Name</div></th>
+						<th><div class="th-inner">Library</div></th>
+						<th><div class="th-inner">Management</div></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+							<% @staffs.each do |staff| %>
+
+		<td><%= staff.user_name %></td>
+		<td><%= staff.first_name + ' ' + staff.last_name%></td>
+		<td><%= staff.location %></td>
+		<td>
+			<%= link_to "Edit", edit_staff_path(staff),:class=>"btn btn-primary" %>
+			<%= link_to "Delete", staff, method: :delete, data: {confirm: 'Are you sure?'},:class=>"btn btn-primary" %>
+		</td>
+	<% end %>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</div>
 </div>
 
+</div>
 
-
-
-
-<h1>Staff Lists</h1>
-
-<% @staffs.each do |staff| %>
-	<p>User Name: <%= staff.user_name %></p>
-	<p>Staff Name: <%= staff.first_name + ' ' + staff.last_name%></p>
-	<p>Location: <%= staff.location %></p>
-	<p>
-		<%= link_to "Edit", edit_staff_path(staff) %>
-		<%= link_to "Delete", staff, method: :delete, data: {confirm: 'Are you sure?'} %>
-	</p>
-	<hr />
-<% end %>
-
-<p><%= link_to "Add a New Staff", new_staff_path %></p> 
