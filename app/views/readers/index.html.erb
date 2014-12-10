@@ -58,10 +58,16 @@
 					</tr>
 				</thead>
 				<tbody>
+<<<<<<< HEAD
 					<% @readers.each do |reader| %>
 					<tr>
 							
 
+=======
+					
+							<% @readers.each do |reader| %>
+		<tr>
+>>>>>>> a324dfd3b9eaf153ac6b4e2091e2d411b631f8e8
 		<td><%= link_to reader.first_name + ' ' + reader.last_name, reader %></td>
 		<td><%= reader.id%></td>
 		<td><%= reader.reg_location%></td>
@@ -70,8 +76,8 @@
 			<%= link_to "Edit", edit_reader_path(reader),:class=>"btn btn-primary" %>
 			<%= link_to "Delete", reader, method: :delete, data: {confirm: 'Are you sure?'},:class=>"btn btn-primary" %>
 		</td>
+		</tr>
 	<% end %>
-					</tr>
 				</tbody>
 			</table>
 		</div>

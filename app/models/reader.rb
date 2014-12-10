@@ -8,7 +8,7 @@ class Reader < ActiveRecord::Base
     validates :reg_date, presence: true
 
 	def self.search(query)
-		where("first_name like ? OR last_name like ?" , "%#{query}%", "%#{query}%")
+		where("first_name like ? OR last_name like ? OR id = ?" , "%#{query}%", "%#{query}%", query)
 	end
 	
 end
