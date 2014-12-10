@@ -47929,3 +47929,5 @@ ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (2.3ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.3ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (31.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
