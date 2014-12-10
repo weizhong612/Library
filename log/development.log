@@ -63622,3 +63622,3331 @@ Processing by ProgramController#report as HTML
   [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
   Rendered program/report.html.erb within layouts/application (1.8ms)
 Completed 200 OK in 453ms (Views: 449.5ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 165.91.13.38 at 2014-12-10 16:43:15 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (6.6ms)
+Warning. Error encountered while saving cache 6999747e50471ecd3e208499ef3d94892d8ed9c7/application.css.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 35467d4f80e95df6eda84c045946d75c7240583e/_bootstrap-sprockets.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 35467d4f80e95df6eda84c045946d75c7240583e/_bootstrap.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_variables.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_mixins.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_hide-text.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_opacity.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_image.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_labels.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_reset-filter.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_resize.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_responsive-visibility.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_size.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_tab-focus.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_text-emphasis.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_text-overflow.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_vendor-prefixes.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_alerts.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_buttons.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_panels.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_pagination.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_list-group.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_nav-divider.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_forms.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_progress-bar.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_table-row.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_background-variant.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_border-radius.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_gradients.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_clearfix.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_center-block.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_nav-vertical-align.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_grid-framework.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache f660998da6578be8ac3dc7c79d38fb7d8e63c84f/_grid.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_normalize.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_print.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_glyphicons.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_scaffolding.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_type.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_code.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_grid.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_tables.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_forms.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_buttons.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_component-animations.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_dropdowns.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_button-groups.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_input-groups.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_navs.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_navbar.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_pagination.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_pager.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_labels.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_badges.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_jumbotron.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_thumbnails.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_alerts.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_progress-bars.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_media.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_list-group.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_panels.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_responsive-embed.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_wells.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_close.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_modals.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_tooltip.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_popovers.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_carousel.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_utilities.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Warning. Error encountered while saving cache 4c600ec22cc62bd89d47088f79819690021a5763/_responsive-utilities.scssc: can't dump anonymous class #<Class:0x00000003dddfa8>
+
+Completed 200 OK in 9528ms (Views: 9512.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 16:43:26 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:43:26 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (25.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (91.5ms)
+
+
+Started GET "/" for 165.91.13.38 at 2014-12-10 16:43:44 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 288ms (Views: 286.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:43:45 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (52.5ms)
+
+
+Started GET "/login" for 165.91.13.38 at 2014-12-10 16:43:47 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 313ms (Views: 312.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.38 at 2014-12-10 16:43:49 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aWAp5uWudzj3WCwzjOFVcYWSw2ivIW4SNo13wAts5IFXRiDzprYI68DoaFY6BIyzHvN4PFDkaPOVtNLnKtF4Bg==", "login"=>{"user_name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.7ms)[0m  SELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1  [["user_name", "test"]]
+Redirected to https://library-baobeihm.c9.io/readers
+Completed 302 Found in 111ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 16:43:49 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 295ms (Views: 287.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:43:50 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (56.7ms)
+
+
+Started GET "/readers/new" for 165.91.13.38 at 2014-12-10 16:44:20 +0000
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 289ms (Views: 288.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/readers/new" for 165.91.13.38 at 2014-12-10 16:44:31 +0000
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 257ms (Views: 255.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/m_login" for 165.91.13.38 at 2014-12-10 16:45:24 +0000
+Processing by MLoginController#new as HTML
+  Rendered m_login/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 286ms (Views: 285.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/m_login" for 165.91.13.38 at 2014-12-10 16:45:32 +0000
+Processing by MLoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"913XHki/dCeeb3+cRBY34sOuI/BEdGrXFnaZ1AsDPCnJe94LC6cL9KnfO/ny8+4gWM+YpLuxbDa1TzzzKr6grg==", "m_login"=>{"name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mLibManager Load (0.2ms)[0m  SELECT  "lib_managers".* FROM "lib_managers" WHERE "lib_managers"."name" = ? LIMIT 1  [["name", "test"]]
+Redirected to https://library-baobeihm.c9.io/staffs
+Completed 302 Found in 9ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/staffs" for 165.91.13.38 at 2014-12-10 16:45:32 +0000
+Processing by StaffsController#index as HTML
+  [1m[36mStaff Load (0.4ms)[0m  [1mSELECT "staffs".* FROM "staffs"[0m
+  Rendered staffs/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 298ms (Views: 295.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:45:33 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (54.2ms)
+
+
+Started GET "/staffs/new" for 165.91.13.38 at 2014-12-10 16:45:36 +0000
+Processing by StaffsController#new as HTML
+  Rendered staffs/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 312ms (Views: 310.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/program/report" for 165.91.13.38 at 2014-12-10 16:45:47 +0000
+Processing by ProgramController#report as HTML
+  [1m[35mReader Load (0.5ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered program/report.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 280ms (Views: 275.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/program/report" for 165.91.13.38 at 2014-12-10 16:45:47 +0000
+Processing by ProgramController#report as HTML
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered program/report.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 409ms (Views: 403.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/program/about" for 165.91.13.38 at 2014-12-10 16:46:02 +0000
+Processing by ProgramController#about as HTML
+  Rendered program/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 265ms (Views: 264.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.13.38 at 2014-12-10 16:49:18 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 262ms (Views: 261.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:49:18 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (55.8ms)
+
+
+Started GET "/m_login" for 165.91.13.38 at 2014-12-10 16:49:32 +0000
+Processing by MLoginController#new as HTML
+  Rendered m_login/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 261ms (Views: 259.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/m_login" for 165.91.13.38 at 2014-12-10 16:49:35 +0000
+Processing by MLoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"swtH2HECV8DPxr+qz/uarb0dD7yD+klMFJG8X+Ci5wqNLU7NMhooE/h2+895HkNvJny06Hw/T623qBl4wR97jQ==", "m_login"=>{"name"=>"BBB", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mLibManager Load (0.2ms)[0m  SELECT  "lib_managers".* FROM "lib_managers" WHERE "lib_managers"."name" = ? LIMIT 1  [["name", "BBB"]]
+Redirected to https://library-baobeihm.c9.io/staffs
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/staffs" for 165.91.13.38 at 2014-12-10 16:49:35 +0000
+Processing by StaffsController#index as HTML
+  [1m[36mStaff Load (0.4ms)[0m  [1mSELECT "staffs".* FROM "staffs"[0m
+  Rendered staffs/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 293ms (Views: 290.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:49:36 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (60.9ms)
+
+
+Started GET "/staffs/new" for 165.91.13.38 at 2014-12-10 16:49:47 +0000
+Processing by StaffsController#new as HTML
+  Rendered staffs/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 266ms (Views: 264.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/m_login" for 165.91.13.38 at 2014-12-10 16:49:56 +0000
+Processing by MLoginController#new as HTML
+  Rendered m_login/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 277ms (Views: 276.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/m_login" for 165.91.13.38 at 2014-12-10 16:50:01 +0000
+Processing by MLoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OUj328DJU0q+7318mVvC9SsiUVz7xfifb00sFm5S1igHbv7Og9EsmYlfORkvvhs3sEPqCAQA/n7MdIkxT+9Krw==", "m_login"=>{"name"=>"BBB", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mLibManager Load (0.3ms)[0m  SELECT  "lib_managers".* FROM "lib_managers" WHERE "lib_managers"."name" = ? LIMIT 1  [["name", "BBB"]]
+Redirected to https://library-baobeihm.c9.io/staffs
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/staffs" for 165.91.13.38 at 2014-12-10 16:50:01 +0000
+Processing by StaffsController#index as HTML
+  [1m[36mStaff Load (0.4ms)[0m  [1mSELECT "staffs".* FROM "staffs"[0m
+  Rendered staffs/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 312ms (Views: 309.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:50:02 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (65.1ms)
+
+
+Started GET "/m_login" for 165.91.13.38 at 2014-12-10 16:50:14 +0000
+Processing by MLoginController#new as HTML
+  Rendered m_login/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 247ms (Views: 246.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 165.91.13.38 at 2014-12-10 16:50:18 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 266ms (Views: 265.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.38 at 2014-12-10 16:50:20 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 273ms (Views: 272.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.38 at 2014-12-10 16:50:23 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1wpow+/xjh+s7kV0XrhknjJNWIpANHr7/do4cxXVsdzpLGHWrOnxzJteARHoXb1cqSzj3r/xfBpe451UNGgtWw==", "login"=>{"user_name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.3ms)[0m  SELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1  [["user_name", "test"]]
+Redirected to https://library-baobeihm.c9.io/readers
+Completed 302 Found in 72ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 16:50:23 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 307ms (Views: 304.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:50:24 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (56.8ms)
+
+
+Started GET "/readers?utf8=%E2%9C%93&search=2" for 165.91.13.38 at 2014-12-10 16:50:49 +0000
+Processing by ReadersController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"2"}
+  [1m[35mReader Load (0.4ms)[0m  SELECT "readers".* FROM "readers" WHERE (first_name like '%2%' OR last_name like '%2%' OR id = '2')  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 274ms (Views: 272.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:50:49 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (51.5ms)
+
+
+Started GET "/program/report" for 165.91.13.38 at 2014-12-10 16:50:56 +0000
+Processing by ProgramController#report as HTML
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered program/report.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 305ms (Views: 299.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/readers?program=Adult" for 165.91.13.38 at 2014-12-10 16:51:00 +0000
+Processing by ReadersController#index as HTML
+  Parameters: {"program"=>"Adult"}
+  [1m[35mReader Load (0.6ms)[0m  SELECT "readers".* FROM "readers"
+  Rendered readers/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 294ms (Views: 289.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/program/report" for 165.91.13.38 at 2014-12-10 16:51:14 +0000
+Processing by ProgramController#report as HTML
+  [1m[36mReader Load (0.6ms)[0m  [1mSELECT "readers".* FROM "readers"[0m
+  Rendered program/report.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 313ms (Views: 307.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/readers/new" for 165.91.13.38 at 2014-12-10 16:51:21 +0000
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 247ms (Views: 245.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/program/index" for 165.91.13.38 at 2014-12-10 16:51:26 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 263ms (Views: 261.4ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to NewNote (20141210165242)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mALTER TABLE "readers" ADD "note" text[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141210165242"]]
+  [1m[36m (11.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/program/index" for 165.91.13.38 at 2014-12-10 16:56:18 +0000
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 285ms (Views: 283.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 165.91.13.38 at 2014-12-10 16:56:20 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 281ms (Views: 279.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.38 at 2014-12-10 16:56:26 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UniAtV/TGivz8L9ldx8by7XnkDPAeA2cWqY1hn4BzsBsXomgHMtl+MRA+wDB+sIJLoYrZz+9C335n5ChX7xSRw==", "login"=>{"user_name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.5ms)[0m  [1mSELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1[0m  [["user_name", "test"]]
+Redirected to https://library-baobeihm.c9.io/readers
+Completed 302 Found in 88ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 16:56:26 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.4ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 290ms (Views: 283.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:56:27 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (62.5ms)
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 16:56:46 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReader Load (0.6ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 297ms (Views: 290.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 165.91.13.38 at 2014-12-10 16:57:55 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 267ms (Views: 266.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:57:55 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (53.1ms)
+
+
+Started GET "/login" for 165.91.13.38 at 2014-12-10 16:57:57 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 291ms (Views: 289.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.38 at 2014-12-10 16:58:02 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iqpI8J8h5W5HuZ9XN+FiTAB01GqNsQuj20XlUwUT30G0jEHl3DmavXAJ2zKBBLuOmxVvPnJ0DUJ4fEB0JK5Dxg==", "login"=>{"user_name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.3ms)[0m  SELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1  [["user_name", "test"]]
+Redirected to https://library-baobeihm.c9.io/readers
+Completed 302 Found in 72ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 16:58:02 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 290ms (Views: 287.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:58:03 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (54.1ms)
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 16:58:06 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReader Load (0.3ms)[0m  SELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 319ms (Views: 316.9ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/readers/2" for 165.91.13.38 at 2014-12-10 16:58:37 +0000
+Processing by ReadersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y7kyhk28CGCauPMyiIOaLlffwNj8EeZtArrjJ0tIjEtdnzuTDqR3s60It1c+ZkPszL57jAPU4Iyhg0YAavUQzA==", "reader"=>{"mid_date"=>"", "mid_initial"=>"", "end_date"=>"", "end_initial"=>"This is a note for this new reader. Let test this function."}, "commit"=>"Update", "id"=>"2"}
+  [1m[36mReader Load (0.2ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "readers" SET "end_initial" = ?, "mid_initial" = ?, "updated_at" = ? WHERE "readers"."id" = 2[0m  [["end_initial", "This is a note for this new reader. Let test this function."], ["mid_initial", ""], ["updated_at", "2014-12-10 16:58:37.577186"]]
+  [1m[35m (28.1ms)[0m  commit transaction
+Redirected to https://library-baobeihm.c9.io/readers
+Completed 302 Found in 42ms (ActiveRecord: 29.2ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 16:58:37 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.6ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 311ms (Views: 309.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:58:38 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (61.4ms)
+
+
+Started GET "/" for 165.91.13.38 at 2014-12-10 16:59:34 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 337ms (Views: 335.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:59:34 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (61.8ms)
+
+
+Started GET "/login" for 165.91.13.38 at 2014-12-10 16:59:36 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 314ms (Views: 312.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.38 at 2014-12-10 16:59:41 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hmU8O2GmaefcvBzPxku1A1BAr5elgZk4tkXR8q4ArTa4QzUuIr4WNOsMWKpwrmzByyEUw1pEn9kVfHTVj70xsQ==", "login"=>{"user_name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mStaff Load (0.3ms)[0m  SELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1  [["user_name", "test"]]
+Redirected to https://library-baobeihm.c9.io/readers
+Completed 302 Found in 75ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 16:59:41 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.5ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 358ms (Views: 355.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:59:42 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (63.1ms)
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 16:59:43 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReader Load (0.4ms)[0m  SELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 335ms (Views: 332.4ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/readers/2" for 165.91.13.38 at 2014-12-10 16:59:53 +0000
+Processing by ReadersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pxSROh0y30vzF4zo+ZtvexrlWackDyifLuRQvLGXHU2ZMpgvXiqgmMSnyI1Pfra5gYTi89vKLn6N3fWbkCqByg==", "reader"=>{"mid_date"=>"", "mid_initial"=>"", "end_date"=>"", "end_initial"=>"", "note"=>"This is a note for this new reader. Let test this function."}, "commit"=>"Update", "id"=>"2"}
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
+Unpermitted parameter: note
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "readers" SET "end_initial" = ?, "updated_at" = ? WHERE "readers"."id" = 2[0m  [["end_initial", ""], ["updated_at", "2014-12-10 16:59:53.676887"]]
+  [1m[35m (55.0ms)[0m  commit transaction
+Redirected to https://library-baobeihm.c9.io/readers
+Completed 302 Found in 67ms (ActiveRecord: 56.2ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 16:59:53 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.5ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 297ms (Views: 295.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 16:59:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (61.1ms)
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 16:59:58 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReader Load (0.3ms)[0m  SELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 323ms (Views: 320.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/program/index" for 165.91.13.38 at 2014-12-10 17:01:38 +0000
+Processing by ProgramController#index as HTML
+  Rendered program/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 330ms (Views: 329.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/program/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:01:39 +0000
+
+ActionController::RoutingError (No route matches [GET] "/program/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (55.0ms)
+
+
+Started GET "/login" for 165.91.13.38 at 2014-12-10 17:01:41 +0000
+Processing by LoginController#new as HTML
+  Rendered login/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 301ms (Views: 299.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 165.91.13.38 at 2014-12-10 17:01:43 +0000
+Processing by LoginController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PzcqTyCQDmX9TUiGxU5NQXrnFm+Mipn7jMVVWZ5Fe8IBESNaY4hxtsr9DONzq5SD4YatO3NPnxov/PB+v/jnRQ==", "login"=>{"user_name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStaff Load (0.4ms)[0m  [1mSELECT  "staffs".* FROM "staffs" WHERE "staffs"."user_name" = ? LIMIT 1[0m  [["user_name", "test"]]
+Redirected to https://library-baobeihm.c9.io/readers
+Completed 302 Found in 102ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:01:43 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.4ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 303ms (Views: 296.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:01:43 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (52.9ms)
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 17:01:46 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 320ms (Views: 314.2ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/readers/2" for 165.91.13.38 at 2014-12-10 17:01:50 +0000
+Processing by ReadersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jgI2NugpAB1HRWGUqIjdPfMNrUycrNgiiN0RWnOt3GuwJD8jqzF/znD1JfEebQT/aGwWGGNp3sMr5LR9UhBA7A==", "reader"=>{"mid_date"=>"", "mid_initial"=>"", "end_date"=>"", "end_initial"=>"", "note"=>"test"}, "commit"=>"Update", "id"=>"2"}
+  [1m[35mReader Load (0.2ms)[0m  SELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "readers" SET "note" = ?, "updated_at" = ? WHERE "readers"."id" = 2  [["note", "test"], ["updated_at", "2014-12-10 17:01:50.310568"]]
+  [1m[36m (13.5ms)[0m  [1mcommit transaction[0m
+Redirected to https://library-baobeihm.c9.io/readers
+Completed 302 Found in 24ms (ActiveRecord: 14.3ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:01:50 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.4ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 287ms (Views: 285.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:01:51 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (52.3ms)
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 17:01:54 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReader Load (0.2ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 260ms (Views: 257.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:02:07 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.6ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 469ms (Views: 467.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:05:32 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.5ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 313ms (Views: 310.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:05:32 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:05:32 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:05:32 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:05:32 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:05:32 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:05:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:05:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:05:33 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:05:33 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:05:33 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:05:33 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:05:33 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:05:33 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:05:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:05:33 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:05:33 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (84.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:05:33 +0000
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 17:05:37 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReader Load (0.2ms)[0m  SELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 427ms (Views: 424.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 279ms (Views: 276.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+
+Started GET "/readers/2/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:06:16 +0000
+
+ActionController::RoutingError (No route matches [GET] "/readers/2/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (54.1ms)
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:17 +0000
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReader Load (0.3ms)[0m  SELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 304ms (Views: 302.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+
+Started GET "/readers/2/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:06:53 +0000
+
+ActionController::RoutingError (No route matches [GET] "/readers/2/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (57.2ms)
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:54 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:06:54 +0000
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 17:07:35 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReader Load (0.2ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 536ms (Views: 533.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:07:36 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:07:36 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:07:36 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:07:36 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:07:36 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:07:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:07:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:07:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:07:36 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:07:37 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:07:37 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:07:37 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:07:37 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:07:37 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:07:37 +0000
+
+
+Started GET "/readers/2/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:07:37 +0000
+
+ActionController::RoutingError (No route matches [GET] "/readers/2/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (87.6ms)
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:07:37 +0000
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 17:08:25 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReader Load (0.2ms)[0m  SELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (31.3ms)
+Completed 500 Internal Server Error in 42ms
+
+NoMethodError (undefined method `form_label' for #<#<Class:0x007f9c75320e88>:0x007f9c755a4f60>):
+  app/views/readers/edit.html.erb:89:in `block in _app_views_readers_edit_html_erb__4262094793660714852_70154980062880'
+  app/views/readers/edit.html.erb:28:in `_app_views_readers_edit_html_erb__4262094793660714852_70154980062880'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (93.3ms)
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 17:09:17 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReader Load (0.2ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 303ms (Views: 301.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+
+Started GET "/readers/2/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:09:18 +0000
+
+ActionController::RoutingError (No route matches [GET] "/readers/2/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (60.6ms)
+
+
+Started GET "/readers/2/edit" for 165.91.13.38 at 2014-12-10 17:10:13 +0000
+Processing by ReadersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReader Load (0.2ms)[0m  SELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered readers/edit.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 270ms (Views: 268.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+
+Started GET "/readers/2/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:10:14 +0000
+
+ActionController::RoutingError (No route matches [GET] "/readers/2/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (60.0ms)
+
+
+Started PATCH "/readers/2" for 165.91.13.38 at 2014-12-10 17:11:03 +0000
+Processing by ReadersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EN/Y2gXAv4TpTmDRZfWMNYgeODlvpjRnMN86IeSoZy8u+dHPRtjAV97+JLTTEFX3E3+DbZBjMoaT5p8GxRX7qA==", "reader"=>{"mid_date"=>"", "mid_initial"=>"", "end_date"=>"", "end_initial"=>"", "note"=>"This is a test for this program. Staffs could input notes for program here."}, "commit"=>"Update", "id"=>"2"}
+  [1m[36mReader Load (0.2ms)[0m  [1mSELECT  "readers".* FROM "readers" WHERE "readers"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "readers" SET "note" = ?, "updated_at" = ? WHERE "readers"."id" = 2[0m  [["note", "This is a test for this program. Staffs could input notes for program here."], ["updated_at", "2014-12-10 17:11:03.991161"]]
+  [1m[35m (13.5ms)[0m  commit transaction
+Redirected to https://library-baobeihm.c9.io/readers
+Completed 302 Found in 23ms (ActiveRecord: 14.3ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 256ms (Views: 254.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (252.5ms)
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:11:04 +0000
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:12:42 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.4ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 257ms (Views: 255.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:12:43 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (55.0ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 261ms (Views: 259.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:14:40 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:14:41 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (62.0ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:15:41 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.4ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 279ms (Views: 277.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:15:42 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (27.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (122.6ms)
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:15:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:15:43 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:15:43 +0000
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 258ms (Views: 256.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:16:19 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (79.7ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:18:17 +0000
+Processing by ReadersController#index as HTML
+  Rendered readers/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 15ms
+
+SyntaxError (/home/ubuntu/workspace/Library/app/views/readers/index.html.erb:65: syntax error, unexpected =>, expecting :: or '[' or '.'
+...er.append=( reader.id, :class=>"col-md-1");@output_buffer.sa...
+...                               ^
+/home/ubuntu/workspace/Library/app/views/readers/index.html.erb:66: syntax error, unexpected =>, expecting :: or '[' or '.'
+...( reader.reg_location, :class=>"col-md-2");@output_buffer.sa...
+...                               ^
+/home/ubuntu/workspace/Library/app/views/readers/index.html.erb:67: syntax error, unexpected =>, expecting :: or '[' or '.'
+...pend=( reader.program, :class=>"col-md-1");@output_buffer.sa...
+...                               ^
+/home/ubuntu/workspace/Library/app/views/readers/index.html.erb:68: syntax error, unexpected =>, expecting :: or '[' or '.'
+....append=( reader.note, :class=>"col-md-3");@output_buffer.sa...
+...                               ^):
+  app/views/readers/index.html.erb:65: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/readers/index.html.erb:66: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/readers/index.html.erb:67: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/readers/index.html.erb:68: syntax error, unexpected =>, expecting :: or '[' or '.'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (11.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (64.5ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:19:56 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.3ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 261ms (Views: 259.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (141.2ms)
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:19:57 +0000
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:20:20 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 267ms (Views: 265.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (52.5ms)
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:21 +0000
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:20:48 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.4ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 226ms (Views: 224.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:20:49 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (50.4ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:21:06 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 240ms (Views: 238.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:21:07 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (53.6ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:22:18 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.6ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 276ms (Views: 274.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (65.6ms)
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:19 +0000
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:22:33 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.4ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 297ms (Views: 295.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (65.5ms)
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:22:34 +0000
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:23:08 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.3ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 258ms (Views: 256.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (56.7ms)
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:23:09 +0000
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:26:01 +0000
+Processing by ReadersController#index as HTML
+  [1m[36mReader Load (0.3ms)[0m  [1mSELECT "readers".* FROM "readers"  ORDER BY created_at DESC[0m
+  Rendered readers/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 252ms (Views: 250.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:26:01 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:26:01 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:26:01 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:26:01 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:26:01 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:26:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:26:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:26:01 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:26:02 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:26:02 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:26:02 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:26:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:26:02 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:26:02 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:26:02 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:26:02 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:26:02 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (59.3ms)
+
+
+Started GET "/readers" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+Processing by ReadersController#index as HTML
+  [1m[35mReader Load (0.5ms)[0m  SELECT "readers".* FROM "readers"  ORDER BY created_at DESC
+  Rendered readers/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 438ms (Views: 435.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/staffs.css?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/login.css?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/m_login.css?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/readers.css?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/staff_pages.css?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/m_login.js?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/login.js?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/readers.js?body=1" for 165.91.13.38 at 2014-12-10 17:27:57 +0000
+
+
+Started GET "/assets/staff_pages.js?body=1" for 165.91.13.38 at 2014-12-10 17:27:58 +0000
+
+
+Started GET "/assets/staffs.js?body=1" for 165.91.13.38 at 2014-12-10 17:27:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 165.91.13.38 at 2014-12-10 17:27:58 +0000
+
+
+Started GET "/js/bootstrap.min.js" for 165.91.13.38 at 2014-12-10 17:27:58 +0000
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta2) lib/action_dispatch/middleware/static.rb:103:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta2) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta2) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (57.6ms)

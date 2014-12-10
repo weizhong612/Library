@@ -55,6 +55,6 @@ class ReadersController < ApplicationController
 
 	def reader_params
         params.require(:reader).permit(:first_name, :last_name, :date_of_birth, :program, :reg_location, :reg_date,
-                                       :mid_date, :mid_location, :mid_initial, :end_date, :end_location, :end_initial)
+                                       :mid_date, :mid_location, :mid_initial, :end_date, :end_location, :end_initial, :note)
 	end
 end

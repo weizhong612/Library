@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141206214947) do
+ActiveRecord::Schema.define(version: 20141210165242) do
 
   create_table "lib_managers", force: true do |t|
     t.string "name",            limit: 255
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20141206214947) do
     t.string   "end_initial",   limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "note"
   end
 
   create_table "staffs", force: true do |t|

@@ -50,26 +50,40 @@
 			<table class="table table-hover">
 				<thead>
 					<tr>
+						<th><div class="th-inner">LogNumber</div></th>
 						<th><div class="th-inner">Reader Name</div></th>
-						<th><div class="th-inner">Log Number</div></th>
 						<th><div class="th-inner">Library</div></th>
 						<th><div class="th-inner">Program</div></th>
+						<th><div class="th-inner">Status</div></th>
+						<th><div class="th-inner">Note</div></th>
 						<th><div class="th-inner">Management</div></th>
 					</tr>
 				</thead>
 				<tbody>
-							<% @readers.each do |reader| %>
-		<tr>
-		<td><%= link_to reader.first_name + ' ' + reader.last_name, reader %></td>
-		<td><%= reader.id%></td>
-		<td><%= reader.reg_location%></td>
-		<td><%= reader.program%></td>
-		<td>
-			<%= link_to "Edit", edit_reader_path(reader),:class=>"btn btn-primary" %>
-			<%= link_to "Delete", reader, method: :delete, data: {confirm: 'Are you sure?'},:class=>"btn btn-primary" %>
-		</td>
-		</tr>
-	<% end %>
+					<% @readers.each do |reader| %>
+						<tr>
+							<td class="col-md-1"><%= reader.id %></td>
+							<td class="col-md-1"><%= link_to reader.first_name + ' ' + reader.last_name, reader%></td>
+							<td class="col-md-1"><%= reader.reg_location%></td>
+							<td class="col-md-1">
+								<% if reader.mid_date%>
+									<% if reader.end_date%>
+										<p>Finished<p>
+									<%else%>
+										<p>Halfway<p>
+									<% end %>
+								<% else %>
+									<p>Begining</p>
+								<% end %>
+							</td>
+							<td class="col-md-1"><%= reader.program%></td>
+							<td class="col-md-2"><%= reader.note%></td>
+							<td class="col-md-1">
+								<%= link_to "Edit", edit_reader_path(reader),:class=>"btn btn-primary" %>
+								<%= link_to "Delete", reader, method: :delete, data: {confirm: 'Are you sure?'},:class=>"btn btn-primary" %>
+							</td>
+						</tr>
+					<% end %>
 				</tbody>
 			</table>
 		</div>
