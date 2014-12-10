@@ -68,9 +68,12 @@
 				<thead>
 					<tr>
 						<th><div class="th-inner">Halfway Date</div></th>
+						<th><div class="th-inner">Bonus</div></th>
 						<th><div class="th-inner">Staff Initial</div></th>
 						<th><div class="th-inner">Finish Date</div></th>
+						<th><div class="th-inner">Bonus</div></th>
 						<th><div class="th-inner">Staff Initial</div></th>
+						
 					</tr>
 				</thead>
 				<tbody>
@@ -78,8 +81,10 @@
 						<div class="input-group">
 
 		<td><%= form.date_field :mid_date , :class=>"form-control", :placeholder=>"Mid Date"%></td>
+		<td><%= form.check_box :halfway_check, :class=>"form-control"%></td>
 		<td><%= form.text_field :mid_initial , :class=>"form-control", :placeholder=>"Initial"%></td>
 		<td><%= form.date_field :end_date , :class=>"form-control", :placeholder=>"End Date"%></td>
+		<td><%= form.check_box :finish_check, :class=>"form-control"%></td>
 		<td><%= form.text_field :end_initial, :class=>"form-control", :placeholder=>"Initial" %></td>
 						</div>
 					</tr>

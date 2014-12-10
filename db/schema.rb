@@ -11,36 +11,38 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141206214947) do
+ActiveRecord::Schema.define(version: 20141210174638) do
 
   create_table "lib_managers", force: true do |t|
-    t.string "name",            limit: 255
-    t.string "password_digest", limit: 255
+    t.string "name"
+    t.string "password_digest"
   end
 
   create_table "readers", force: true do |t|
-    t.string   "first_name",    limit: 255
-    t.string   "last_name",     limit: 255
+    t.string   "first_name"
+    t.string   "last_name"
     t.date     "date_of_birth"
-    t.string   "program",       limit: 255
-    t.string   "reg_location",  limit: 255
+    t.string   "program"
+    t.string   "reg_location"
     t.date     "reg_date"
     t.date     "mid_date"
-    t.string   "mid_location",  limit: 255
-    t.string   "mid_initial",   limit: 255
+    t.string   "mid_location"
+    t.string   "mid_initial"
     t.date     "end_date"
-    t.string   "end_location",  limit: 255
-    t.string   "end_initial",   limit: 255
+    t.string   "end_location"
+    t.string   "end_initial"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "halfway_check"
+    t.boolean  "finish_check"
   end
 
   create_table "staffs", force: true do |t|
-    t.string   "user_name",       limit: 255
-    t.string   "password_digest", limit: 255
-    t.string   "first_name",      limit: 255
-    t.string   "last_name",       limit: 255
-    t.string   "location",        limit: 255
+    t.string   "user_name"
+    t.string   "password_digest"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "location"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
