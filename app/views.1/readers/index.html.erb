@@ -1,0 +1,83 @@
+<div class="container container-margin-horizon">
+		<h1>
+    	Bryan College Station Public Library<br/>
+    	Summer Reading Program
+		</h1>
+</div>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	
+	<div class="container-margin-horizon">
+  		<div class="navbar-header">
+  			<%= link_to "Summer Reading Program", {controller: "program", action: "index"}, class: "navbar-toggle collapsed btn btn-inverse" %>
+  		</div>
+  		<div class="navbar-collapse collapse nav-bar-left">
+  			<ul id="application-head" class="nav navbar-nav">
+    			<li class="active"><%= link_to "Home", index_program_path %></li>
+    			<li><%= link_to "New Reader", new_reader_path %></li>
+				<li><%= link_to "Programs", '/program/report' %></li>
+    			<li><%= link_to "About", '/program/about' %></li>
+   				<li><%= link_to "log out", login_path %></li>
+   				
+  			</ul>
+		</div>
+</nav>
+
+
+
+<div class="container-fluid container-margin-horizon">
+
+<%= form_tag readers_path,:class=>'navbar-form navbar-collapse collapse  navbar-right', :method => 'get', id: 'search-form' do %>
+  			<div class="form-group">
+    		<%= text_field_tag :search, params[:search], placeholder: "Search Reader", :class=>'form-control'%>
+    		<%= submit_tag "Search", :name => nil, :class=>'btn btn-default' %>
+    		</div>
+    		
+<% end %>
+
+<h2>
+	Reader List:
+</h2>
+	<% if @readers.length==0 %>
+		<h2>No readers currently.<h2>
+		<%= link_to "Add a New Reader", new_reader_path,:class=>"btn btn-primary" %>
+	<%end%>
+	
+
+<% if @readers.length>0 %>
+<div class="bootstrap-table">
+	<div class="fixed-table-container">
+		<div class="fixed-table-header">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th><div class="th-inner">Reader Name</div></th>
+						<th><div class="th-inner">Log Number</div></th>
+						<th><div class="th-inner">Library</div></th>
+						<th><div class="th-inner">Program</div></th>
+						<th><div class="th-inner">Management</div></th>
+					</tr>
+				</thead>
+				<tbody>
+					<% @readers.each do |reader| %>
+					<tr>
+							
+
+		<td><%= link_to reader.first_name + ' ' + reader.last_name, reader %></td>
+		<td><%= reader.id%></td>
+		<td><%= reader.reg_location%></td>
+		<td><%= reader.program%></td>
+		<td>
+			<%= link_to "Edit", edit_reader_path(reader),:class=>"btn btn-primary" %>
+			<%= link_to "Delete", reader, method: :delete, data: {confirm: 'Are you sure?'},:class=>"btn btn-primary" %>
+		</td>
+	<% end %>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</div>
+</div>
+
+<% end %>
+</div>
