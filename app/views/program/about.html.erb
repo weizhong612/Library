@@ -1,0 +1,32 @@
+<div class="container container-margin-horizon">
+<h1>
+Bryan College Station Public Library<br/>
+Summer Reading Program
+</h1>
+</div>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	
+	<div class="container-margin-horizon">
+  		<div class="navbar-header">
+  			<%= link_to "Summer Reading Program", {controller: "program", action: "index"}, class: "navbar-toggle collapsed btn btn-inverse" %>
+  		</div>
+  		<div class="navbar-collapse collapse nav-bar-left">
+  			<ul id="application-head" class="nav navbar-nav">
+    			<li><%= link_to "Home", readers_path %></li>
+    			<li><%= link_to "New Reader", new_reader_path %></li>
+				<li><%= link_to "Programs", '/program/report' %></li>
+    			<li class="active"><%= link_to "About", '/program/about' %></li>
+   				<li><%= link_to "log out", login_path %></li>
+   				
+  			</ul>
+		</div>
+</nav>
+<div class="row container-margin-horizon center">
+<p class="about-content">
+This is a online management system for summer reading program in Bryan and College Station Library. <br/>
+
+This website is opened for library staffs. Managers could login with their account and are able to create and edit staffs' accounts. Library staffs have access to reading program database. They could insert, check and update readers' records. <br/>
+
+Also, this website is available to access simultaneously from different locations by multiple librarians. A statistical analysis report over the program is provided, including information such as how many people take the adult summer reading program and what percentage of them is in halfway or finished.
+</p>
+</div>

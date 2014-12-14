@@ -40,14 +40,14 @@
 						<div class="input-group">
 
 		<td><%= form.label :password %></td>
-		<td><%= form.text_field :password, :class=>"form-control", :placeholder=>"Insert Password" %></td>
+		<td><%= form.password_field :password, :class=>"form-control", :placeholder=>"Insert Password" %></td>
 						</div>
 					</tr>
 					<tr>
 						<div class="input-group">
 
 		<td><%= form.label :password_confirmation %></td>
-		<td><%= form.text_field :password_confirmation, :class=>"form-control", :placeholder=>"Confirm Password" %></td>
+		<td><%= form.password_field :password_confirmation, :class=>"form-control", :placeholder=>"Confirm Password" %></td>
 						</div>
 					</tr>
 					<tr>
@@ -68,7 +68,7 @@
 						<div class="input-group">
 
 		<td><%= form.label :location %></td>
-		<td><%= form.text_field :location, :class=>"form-control", :placeholder=>"Location" %></td>
+		<td><%= select(:staff, :location, [['College Station', 'College Station'], ['Bryan', 'Bryan']]) %></td>
 						</div>
 					</tr>
 					<tr>

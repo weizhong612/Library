@@ -14,7 +14,7 @@
   		</div>
   		<div class="navbar-collapse collapse nav-bar-left">
   			<ul id="application-head" class="nav navbar-nav">
-    			<li><%= link_to "Home", index_program_path %></li>
+    			<li><%= link_to "Home", readers_path %></li>
     			<li><%= link_to "New Reader", new_reader_path %></li>
 				<li class="active"><%= link_to "Programs", '/program/report' %></li>
     			<li><%= link_to "About", '/program/about' %></li>
@@ -27,11 +27,11 @@
 
 <div class="container-fluid container-margin-horizon">
 
-<% @program.each do |p| %>
+
 
 <div class="panel panel-default">
   <!-- Default pane --->
-  <div class="panel-heading"><%= p[:name]%></div>
+  <div class="panel-heading">Report</div>
 
   <!-- Table -->
   
@@ -40,8 +40,11 @@
 	<div class="fixed-table-container">
 		<div class="fixed-table-header">
 			<table class="table table-hover">
+			<% @program.each do |p| %>
+				
 				<thead>
 				    <tr>
+				    	<th><div class="th-inner">Name</div></th>
 						<th><div class="th-inner">Total Number</div></th>
 						<th><div class="th-inner">Halfway</div></th>
 						<th><div class="th-inner">Finished</div></th>
@@ -50,7 +53,7 @@
 				</thead>
 				<tbody>
 					<tr>
-
+		<td><%= p[:name]%></td> 
 		<td><%= p[:total]%></td> 
     	<td><%= p[:halfway]%></td>
     	<td><%= p[:finished]%></td>
@@ -58,12 +61,13 @@
     	
 					</tr>
 				</tbody>
+				<% end %>
 	</table>
     </div>
     </div>
     </div>
 </div>
-<% end %>
-<p><%= link_to "Back", readers_path , :class=>"btn btn-primary navbar-btn" %></p>
+
+<!---<p><%= link_to "Back", readers_path , :class=>"btn btn-primary navbar-btn" %></p>--->
 
 </div>

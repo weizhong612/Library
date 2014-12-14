@@ -36,20 +36,7 @@
 		<td><%= form.text_field :user_name, :class=>"form-control" %></td>
 						</div>
 					</tr>
-					<tr>
-						<div class="input-group">
-
-		<td><%= form.label :password %></td>
-		<td><%= form.text_field :password_digest, :class=>"form-control" %></td>
-						</div>
-					</tr>
-					<tr>
-						<div class="input-group">
-
-		<td><%= form.label :password_confirmation %></td>
-		<td><%= form.text_field :password_confirmation, :class=>"form-control" %></td>
-						</div>
-					</tr>
+					
 					<tr>
 						<div class="input-group">
 
@@ -68,8 +55,10 @@
 						<div class="input-group">
 
 		<td><%= form.label :location %></td>
-		<td><%= form.text_field :location, :class=>"form-control" %></td>
+		<td><%= select(:staff, :location, [['College Station', 'College Station'], ['Bryan', 'Bryan']]) %></td>
 						</div>
+						
+		
 					</tr>
 					<tr>
 						<div class="input-group">

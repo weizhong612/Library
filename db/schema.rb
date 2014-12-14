@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 20141210174638) do
     t.datetime "updated_at"
     t.boolean  "halfway_check"
     t.boolean  "finish_check"
+    t.text     "note"
   end
 
   create_table "staffs", force: true do |t|

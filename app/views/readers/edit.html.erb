@@ -73,7 +73,8 @@
 						<th><div class="th-inner">Finish Date</div></th>
 						<th><div class="th-inner">Bonus</div></th>
 						<th><div class="th-inner">Staff Initial</div></th>
-						
+						<th><div class="th-inner col-md-4">Note</div></th>
+
 					</tr>
 				</thead>
 				<tbody>
@@ -86,17 +87,18 @@
 		<td><%= form.date_field :end_date , :class=>"form-control", :placeholder=>"End Date"%></td>
 		<td><%= form.check_box :finish_check, :class=>"form-control"%></td>
 		<td><%= form.text_field :end_initial, :class=>"form-control", :placeholder=>"Initial" %></td>
+		<td><%= form.text_area :note, :class=>"form-control col-md-4", :placeholder=>"Note" %></td>
 						</div>
 					</tr>
 				</tbody>
 			</table>
-			<p>
+		
 		<%= form.submit 'Update' ,:class=>"btn btn-primary"%>
 		<%= link_to 'Cancel', readers_path, :class=>"btn btn-default" %>
-	</p>
 			<% end %>
 		</div>
 
 	</div>
 </div>
+
 </div>
