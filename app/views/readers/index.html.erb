@@ -12,7 +12,7 @@
   		</div>
   		<div class="navbar-collapse collapse nav-bar-left">
   			<ul id="application-head" class="nav navbar-nav">
-    			<li class="active"><%= link_to "Home", index_program_path %></li>
+    			<li><%= link_to "Home", readers_path %></li>
     			<li><%= link_to "New Reader", new_reader_path %></li>
 				<li><%= link_to "Programs", '/program/report' %></li>
     			<li><%= link_to "About", '/program/about' %></li>
@@ -50,10 +50,11 @@
 			<table class="table table-hover">
 				<thead>
 					<tr>
-						<th><div class="th-inner">LogNumber</div></th>
-						<th><div class="th-inner">Reader Name</div></th>
+						<th><div class="th-inner">ID</div></th>
+						<th><div class="th-inner">Name</div></th>
 						<th><div class="th-inner">Library</div></th>
 						<th><div class="th-inner">Status</div></th>
+						<th><div class="th-inner">Bonus</div></th>
 						<th><div class="th-inner">Program</div></th>
 						<th><div class="th-inner">Note</div></th>
 						<th><div class="th-inner">Management</div></th>
@@ -62,9 +63,9 @@
 				<tbody>
 					<% @readers.each do |reader| %>
 						<tr>
-							<td class="col-md-1"><%= reader.id %></td>
-							<td class="col-md-1"><%= link_to reader.first_name + ' ' + reader.last_name, reader%></td>
-							<td class="col-md-1"><%= reader.reg_location%></td>
+							<td class="col-sm-1"><%= reader.id %></td>
+							<td class="col-md-2"><%= link_to reader.first_name + ' ' + reader.last_name, reader%></td>
+							<td class="col-md-2"><%= reader.reg_location%></td>
 							<td class="col-md-1">
 								<% if reader.mid_date%>
 									<% if reader.end_date%>
@@ -76,9 +77,20 @@
 									<p>Begining</p>
 								<% end %>
 							</td>
+							<td class="col-sm-1">
+								<% if reader.mid_date%>
+									<% if reader.end_date%>
+										<p><center>√</center><p>
+									<%else%>
+										<p><center>√</center><p>
+									<% end %>
+								<% else %>
+									<p> </p>
+								<% end %>							
+							</td>
 							<td class="col-md-1"><%= reader.program%></td>
 							<td class="col-md-2"><%= reader.note%></td>
-							<td class="col-md-1">
+							<td class="col-md-2">
 								<%= link_to "Edit", edit_reader_path(reader),:class=>"btn btn-primary" %>
 								<%= link_to "Delete", reader, method: :delete, data: {confirm: 'Are you sure?'},:class=>"btn btn-primary" %>
 							</td>
