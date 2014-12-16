@@ -68,7 +68,7 @@
 							<td class="col-md-2"><%= reader.reg_location%></td>
 							<td class="col-md-1">
 								<% if reader.mid_date%>
-									<% if reader.end_date%>
+									<% if reader.mid_date%>
 										<p>Finished<p>
 									<%else%>
 										<p>Halfway<p>
@@ -78,8 +78,8 @@
 								<% end %>
 							</td>
 							<td class="col-sm-1">
-								<% if reader.mid_date%>
-									<% if reader.end_date%>
+								<% if reader.halfway_check%>
+									<% if reader.finish_check%>
 										<p><center>√</center><p>
 									<%else%>
 										<p><center>√</center><p>
