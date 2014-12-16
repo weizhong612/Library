@@ -35,69 +35,28 @@
 </h2>
 
 <div class="bootstrap-table">
-    
 	<div class="fixed-table-container">
 		<div class="fixed-table-header">
 			<table class="table table-hover">
 				<thead>
-				    <tr>
-				        <th>Personal Information</th>
-				    </tr>
-				    <tr>
+					<tr>
 						<th><div class="th-inner">First Name</div></th>
 						<th><div class="th-inner">Last Name</div></th>
-						<th><div class="th-inner">Date of Birth</div></th>
+						<th><div class="th-inner">DOB</div></th>
 						<th><div class="th-inner">Program</div></th>
-						<th><div class="th-inner">Registration Location</div></th>
+						<th><div class="th-inner">Location</div></th>
+						<th><div class="th-inner">Register Date</div></th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 
-		<td><%= @reader.first_name %></td>
-		<td><%= @reader.last_name %></td>
-		<td><%= @reader.date_of_birth %></td>
-		<td><%= @reader.program %></td>
+		<td><%= @reader.first_name%></td>
+		<td><%= @reader.last_name%></td>
+		<td><%= @reader.date_of_birth%></td>
+		<td><%= @reader.program%></td>
 		<td><%= @reader.reg_location%></td>
-					</tr>
-				</tbody>
-				<thead>
-				    <tr>
-				        <th>Halfway Status</th>
-				    </tr>
-				    <tr>
-					
-						<th><div class="th-inner">Date</div></th>
-						<th><div class="th-inner">Location</div></th>
-						<th><div class="th-inner">Initial</div></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-
-		<td><%= @reader.mid_date %></td>
-		<td><%= @reader.mid_location %></td>
-		<td><%= @reader.mid_initial %></td>
-					</tr>
-				</tbody>
-				
-				<thead>
-				    <tr>
-				        <th>Final Status</th>
-				    </tr>
-				    <tr>
-					
-						<th><div class="th-inner">Date</div></th>
-						<th><div class="th-inner">Location</div></th>
-						<th><div class="th-inner">Initial</div></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-
-		<td><%= @reader.end_date %></td>
-		<td><%= @reader.end_location %></td>
-		<td><%= @reader.end_initial %></td>
+		<td><%= @reader.reg_date%></td>
 					</tr>
 				</tbody>
 			</table>
@@ -105,6 +64,54 @@
 
 	</div>
 </div>
+
+<div class="bootstrap-table">
+	
+	<div class="fixed-table-container">
+		<div class="fixed-table-header">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th><div class="th-inner">Halfway Date</div></th>
+						<th><div class="th-inner">Bonus</div></th>
+						<th><div class="th-inner">Staff Initial</div></th>
+						<th><div class="th-inner">Finish Date</div></th>
+						<th><div class="th-inner">Bonus</div></th>
+						<th><div class="th-inner">Staff Initial</div></th>
+						<th><div class="th-inner">Note</div></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+
+		<td><%= @reader.mid_date%></td>		
+		<td>
+			<% if @reader.halfway_check %>
+				<p>√<p>
+			<%else%>
+				<p> </p>
+			<%end%>				
+		</td>
+		<td><%= @reader.mid_initial%></td>
+		<td><%= @reader.end_date%></td>
+		<td>
+			<% if @reader.finish_check %>
+				<p>√<p>
+			<%else%>
+				<p> </p>
+			<%end%>				
+		</td>
+		<td><%= @reader.end_initial%></td>
+		<td><%= @reader.note%></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</div>
+</div>
+
+
 
 <!--<p>First Name: <%= @reader.first_name %></p>-->
 <!--<p>Last Name: <%= @reader.last_name %></p>-->
