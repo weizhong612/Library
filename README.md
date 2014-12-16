@@ -9,7 +9,9 @@ In this project, we implemented a website which included the manager log in page
 github link: http://github.com/weizhong612/Library
 
 Heroku link: http://bcslibrary.herokuapp.com
+
 For manager login (user name: BBB password: 123)
+
 For staff login (user name: test password: 123)
 
 2-minute video interview: https://vimeo.com/113994235
